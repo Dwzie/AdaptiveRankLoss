@@ -1,0 +1,3510 @@
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 13
+÷Æ«∞”–:9
+π≤Õ¨”–:9
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 302
+÷Æ«∞”–:283
+π≤Õ¨”–:278
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 81
+÷Æ«∞”–:81
+π≤Õ¨”–:75
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 403
+÷Æ«∞”–:400
+π≤Õ¨”–:390
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 665
+÷Æ«∞”–:655
+π≤Õ¨”–:649
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 218
+÷Æ«∞”–:231
+π≤Õ¨”–:215
+
+input1.6.2/4.25/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1692
+÷Æ«∞”–:1681
+π≤Õ¨”–:1654
+
+input1.6.2/4.25/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1719
+÷Æ«∞”–:1718
+π≤Õ¨”–:1690
+
+input1.6.2/4.25/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1739
+÷Æ«∞”–:1690
+π≤Õ¨”–:1666
+
+input1.6.2/4.25/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1705
+÷Æ«∞”–:1694
+π≤Õ¨”–:1665
+
+input1.6.2/4.25/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1651
+÷Æ«∞”–:1639
+π≤Õ¨”–:1605
+
+input1.6.2/4.25/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1755
+÷Æ«∞”–:1676
+π≤Õ¨”–:1662
+
+input1.6.2/4.25/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1093
+÷Æ«∞”–:1102
+π≤Õ¨”–:1065
+
+input1.6.2/4.25/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1062
+÷Æ«∞”–:1051
+π≤Õ¨”–:1039
+
+input1.6.2/4.25/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1077
+÷Æ«∞”–:1099
+π≤Õ¨”–:1068
+
+input1.6.2/4.25/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 730
+÷Æ«∞”–:735
+π≤Õ¨”–:716
+
+input1.6.2/4.25/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 725
+÷Æ«∞”–:687
+π≤Õ¨”–:676
+
+input1.6.2/4.25/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 690
+÷Æ«∞”–:690
+π≤Õ¨”–:671
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 467
+÷Æ«∞”–:491
+π≤Õ¨”–:446
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 432
+÷Æ«∞”–:540
+π≤Õ¨”–:416
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 476
+÷Æ«∞”–:531
+π≤Õ¨”–:460
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 432
+÷Æ«∞”–:532
+π≤Õ¨”–:415
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 151
+÷Æ«∞”–:141
+π≤Õ¨”–:138
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 650
+÷Æ«∞”–:644
+π≤Õ¨”–:634
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 861
+÷Æ«∞”–:861
+π≤Õ¨”–:848
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 561
+÷Æ«∞”–:538
+π≤Õ¨”–:532
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 356
+÷Æ«∞”–:444
+π≤Õ¨”–:333
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 304
+÷Æ«∞”–:446
+π≤Õ¨”–:293
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 333
+÷Æ«∞”–:428
+π≤Õ¨”–:319
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 366
+÷Æ«∞”–:413
+π≤Õ¨”–:354
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 554
+÷Æ«∞”–:556
+π≤Õ¨”–:540
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 545
+÷Æ«∞”–:540
+π≤Õ¨”–:522
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 385
+÷Æ«∞”–:410
+π≤Õ¨”–:376
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 461
+÷Æ«∞”–:489
+π≤Õ¨”–:446
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 503
+÷Æ«∞”–:546
+π≤Õ¨”–:484
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 323
+÷Æ«∞”–:310
+π≤Õ¨”–:307
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 270
+÷Æ«∞”–:253
+π≤Õ¨”–:248
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 223
+÷Æ«∞”–:217
+π≤Õ¨”–:213
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 207
+÷Æ«∞”–:223
+π≤Õ¨”–:203
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 560
+÷Æ«∞”–:570
+π≤Õ¨”–:534
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 435
+÷Æ«∞”–:558
+π≤Õ¨”–:416
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 464
+÷Æ«∞”–:553
+π≤Õ¨”–:451
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 585
+÷Æ«∞”–:587
+π≤Õ¨”–:557
+**********
+
+
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 13
+÷Æ«∞”–:9
+π≤Õ¨”–:9
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 301
+÷Æ«∞”–:283
+π≤Õ¨”–:278
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 81
+÷Æ«∞”–:81
+π≤Õ¨”–:77
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 402
+÷Æ«∞”–:400
+π≤Õ¨”–:390
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 665
+÷Æ«∞”–:655
+π≤Õ¨”–:649
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 218
+÷Æ«∞”–:231
+π≤Õ¨”–:215
+
+input1.6.2/4.25/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1686
+÷Æ«∞”–:1681
+π≤Õ¨”–:1653
+
+input1.6.2/4.25/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1722
+÷Æ«∞”–:1718
+π≤Õ¨”–:1688
+
+input1.6.2/4.25/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1747
+÷Æ«∞”–:1690
+π≤Õ¨”–:1669
+
+input1.6.2/4.25/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1721
+÷Æ«∞”–:1694
+π≤Õ¨”–:1670
+
+input1.6.2/4.25/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1655
+÷Æ«∞”–:1639
+π≤Õ¨”–:1604
+
+input1.6.2/4.25/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1750
+÷Æ«∞”–:1676
+π≤Õ¨”–:1661
+
+input1.6.2/4.25/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1099
+÷Æ«∞”–:1102
+π≤Õ¨”–:1069
+
+input1.6.2/4.25/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1059
+÷Æ«∞”–:1051
+π≤Õ¨”–:1040
+
+input1.6.2/4.25/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1080
+÷Æ«∞”–:1099
+π≤Õ¨”–:1069
+
+input1.6.2/4.25/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 731
+÷Æ«∞”–:735
+π≤Õ¨”–:717
+
+input1.6.2/4.25/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 721
+÷Æ«∞”–:687
+π≤Õ¨”–:674
+
+input1.6.2/4.25/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 687
+÷Æ«∞”–:690
+π≤Õ¨”–:669
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 496
+÷Æ«∞”–:491
+π≤Õ¨”–:467
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 457
+÷Æ«∞”–:540
+π≤Õ¨”–:437
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 480
+÷Æ«∞”–:531
+π≤Õ¨”–:462
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 447
+÷Æ«∞”–:532
+π≤Õ¨”–:430
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 152
+÷Æ«∞”–:141
+π≤Õ¨”–:139
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 652
+÷Æ«∞”–:644
+π≤Õ¨”–:633
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 864
+÷Æ«∞”–:861
+π≤Õ¨”–:849
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 567
+÷Æ«∞”–:538
+π≤Õ¨”–:533
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 372
+÷Æ«∞”–:444
+π≤Õ¨”–:347
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 317
+÷Æ«∞”–:446
+π≤Õ¨”–:306
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 344
+÷Æ«∞”–:428
+π≤Õ¨”–:330
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 369
+÷Æ«∞”–:413
+π≤Õ¨”–:358
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 556
+÷Æ«∞”–:556
+π≤Õ¨”–:541
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 542
+÷Æ«∞”–:540
+π≤Õ¨”–:519
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 409
+÷Æ«∞”–:410
+π≤Õ¨”–:396
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 462
+÷Æ«∞”–:489
+π≤Õ¨”–:447
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 487
+÷Æ«∞”–:546
+π≤Õ¨”–:472
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 325
+÷Æ«∞”–:310
+π≤Õ¨”–:307
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 279
+÷Æ«∞”–:253
+π≤Õ¨”–:251
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 221
+÷Æ«∞”–:217
+π≤Õ¨”–:212
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 206
+÷Æ«∞”–:223
+π≤Õ¨”–:202
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 570
+÷Æ«∞”–:570
+π≤Õ¨”–:541
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 462
+÷Æ«∞”–:558
+π≤Õ¨”–:442
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 480
+÷Æ«∞”–:553
+π≤Õ¨”–:465
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 570
+÷Æ«∞”–:587
+π≤Õ¨”–:546
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 144
+÷Æ«∞”–:140
+π≤Õ¨”–:133
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 142
+÷Æ«∞”–:134
+π≤Õ¨”–:128
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 119
+÷Æ«∞”–:139
+π≤Õ¨”–:113
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 94
+÷Æ«∞”–:147
+π≤Õ¨”–:94
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 137
+÷Æ«∞”–:123
+π≤Õ¨”–:115
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 162
+÷Æ«∞”–:156
+π≤Õ¨”–:154
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 71
+÷Æ«∞”–:90
+π≤Õ¨”–:71
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 109
+÷Æ«∞”–:112
+π≤Õ¨”–:107
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 105
+÷Æ«∞”–:115
+π≤Õ¨”–:104
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_10V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 5
+÷Æ«∞”–:1
+π≤Õ¨”–:1
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_10V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 0
+÷Æ«∞”–:0
+π≤Õ¨”–:0
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_10V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 9
+÷Æ«∞”–:7
+π≤Õ¨”–:6
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_20V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 5
+÷Æ«∞”–:1
+π≤Õ¨”–:1
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_20V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:6
+π≤Õ¨”–:6
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_20V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 3
+÷Æ«∞”–:3
+π≤Õ¨”–:2
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_30V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 4
+÷Æ«∞”–:1
+π≤Õ¨”–:1
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_30V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 0
+÷Æ«∞”–:120
+π≤Õ¨”–:0
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_30V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 3
+÷Æ«∞”–:1
+π≤Õ¨”–:0
+
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:7
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 305
+÷Æ«∞”–:283
+π≤Õ¨”–:278
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 81
+÷Æ«∞”–:81
+π≤Õ¨”–:79
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 407
+÷Æ«∞”–:400
+π≤Õ¨”–:389
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 658
+÷Æ«∞”–:655
+π≤Õ¨”–:642
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 232
+÷Æ«∞”–:231
+π≤Õ¨”–:227
+
+input1.6.2/4.25/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1651
+÷Æ«∞”–:1681
+π≤Õ¨”–:1623
+
+input1.6.2/4.25/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1692
+÷Æ«∞”–:1718
+π≤Õ¨”–:1668
+
+input1.6.2/4.25/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1693
+÷Æ«∞”–:1690
+π≤Õ¨”–:1644
+
+input1.6.2/4.25/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1689
+÷Æ«∞”–:1694
+π≤Õ¨”–:1658
+
+input1.6.2/4.25/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1625
+÷Æ«∞”–:1639
+π≤Õ¨”–:1588
+
+input1.6.2/4.25/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1758
+÷Æ«∞”–:1676
+π≤Õ¨”–:1652
+
+input1.6.2/4.25/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1113
+÷Æ«∞”–:1102
+π≤Õ¨”–:1074
+
+input1.6.2/4.25/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1073
+÷Æ«∞”–:1051
+π≤Õ¨”–:1037
+
+input1.6.2/4.25/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1078
+÷Æ«∞”–:1099
+π≤Õ¨”–:1065
+
+input1.6.2/4.25/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 747
+÷Æ«∞”–:735
+π≤Õ¨”–:721
+
+input1.6.2/4.25/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 729
+÷Æ«∞”–:687
+π≤Õ¨”–:680
+
+input1.6.2/4.25/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 716
+÷Æ«∞”–:690
+π≤Õ¨”–:679
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 499
+÷Æ«∞”–:491
+π≤Õ¨”–:472
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 524
+÷Æ«∞”–:540
+π≤Õ¨”–:501
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 505
+÷Æ«∞”–:531
+π≤Õ¨”–:488
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 453
+÷Æ«∞”–:532
+π≤Õ¨”–:439
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 147
+÷Æ«∞”–:141
+π≤Õ¨”–:139
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 644
+÷Æ«∞”–:644
+π≤Õ¨”–:626
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 852
+÷Æ«∞”–:861
+π≤Õ¨”–:849
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 548
+÷Æ«∞”–:538
+π≤Õ¨”–:529
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 449
+÷Æ«∞”–:444
+π≤Õ¨”–:415
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 411
+÷Æ«∞”–:446
+π≤Õ¨”–:397
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 376
+÷Æ«∞”–:428
+π≤Õ¨”–:362
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 396
+÷Æ«∞”–:413
+π≤Õ¨”–:387
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 576
+÷Æ«∞”–:556
+π≤Õ¨”–:546
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 577
+÷Æ«∞”–:540
+π≤Õ¨”–:532
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 436
+÷Æ«∞”–:410
+π≤Õ¨”–:403
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 515
+÷Æ«∞”–:489
+π≤Õ¨”–:486
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 595
+÷Æ«∞”–:546
+π≤Õ¨”–:542
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 324
+÷Æ«∞”–:310
+π≤Õ¨”–:308
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 264
+÷Æ«∞”–:253
+π≤Õ¨”–:248
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 221
+÷Æ«∞”–:217
+π≤Õ¨”–:217
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 223
+÷Æ«∞”–:223
+π≤Õ¨”–:220
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 580
+÷Æ«∞”–:570
+π≤Õ¨”–:555
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 554
+÷Æ«∞”–:558
+π≤Õ¨”–:523
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 517
+÷Æ«∞”–:553
+π≤Õ¨”–:503
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 586
+÷Æ«∞”–:587
+π≤Õ¨”–:566
+4.29 9£∫45
+
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:7
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 306
+÷Æ«∞”–:283
+π≤Õ¨”–:278
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 82
+÷Æ«∞”–:81
+π≤Õ¨”–:80
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 405
+÷Æ«∞”–:400
+π≤Õ¨”–:390
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 658
+÷Æ«∞”–:655
+π≤Õ¨”–:642
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 234
+÷Æ«∞”–:231
+π≤Õ¨”–:228
+
+input1.6.2/4.25/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1663
+÷Æ«∞”–:1681
+π≤Õ¨”–:1632
+
+input1.6.2/4.25/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1694
+÷Æ«∞”–:1718
+π≤Õ¨”–:1671
+
+input1.6.2/4.25/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1696
+÷Æ«∞”–:1690
+π≤Õ¨”–:1646
+
+input1.6.2/4.25/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1694
+÷Æ«∞”–:1694
+π≤Õ¨”–:1660
+
+input1.6.2/4.25/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1624
+÷Æ«∞”–:1639
+π≤Õ¨”–:1587
+
+input1.6.2/4.25/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1755
+÷Æ«∞”–:1676
+π≤Õ¨”–:1653
+
+input1.6.2/4.25/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1109
+÷Æ«∞”–:1102
+π≤Õ¨”–:1072
+
+input1.6.2/4.25/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1065
+÷Æ«∞”–:1051
+π≤Õ¨”–:1037
+
+input1.6.2/4.25/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1085
+÷Æ«∞”–:1099
+π≤Õ¨”–:1070
+
+input1.6.2/4.25/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 746
+÷Æ«∞”–:735
+π≤Õ¨”–:722
+
+input1.6.2/4.25/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 738
+÷Æ«∞”–:687
+π≤Õ¨”–:684
+
+input1.6.2/4.25/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 715
+÷Æ«∞”–:690
+π≤Õ¨”–:680
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 498
+÷Æ«∞”–:491
+π≤Õ¨”–:472
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 524
+÷Æ«∞”–:540
+π≤Õ¨”–:501
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 507
+÷Æ«∞”–:531
+π≤Õ¨”–:490
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 458
+÷Æ«∞”–:532
+π≤Õ¨”–:444
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 146
+÷Æ«∞”–:141
+π≤Õ¨”–:139
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 642
+÷Æ«∞”–:644
+π≤Õ¨”–:626
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 860
+÷Æ«∞”–:861
+π≤Õ¨”–:854
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 548
+÷Æ«∞”–:538
+π≤Õ¨”–:530
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 449
+÷Æ«∞”–:444
+π≤Õ¨”–:415
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 412
+÷Æ«∞”–:446
+π≤Õ¨”–:398
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 393
+÷Æ«∞”–:428
+π≤Õ¨”–:375
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 405
+÷Æ«∞”–:413
+π≤Õ¨”–:395
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 578
+÷Æ«∞”–:556
+π≤Õ¨”–:546
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 580
+÷Æ«∞”–:540
+π≤Õ¨”–:532
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 447
+÷Æ«∞”–:410
+π≤Õ¨”–:405
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 519
+÷Æ«∞”–:489
+π≤Õ¨”–:486
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 593
+÷Æ«∞”–:546
+π≤Õ¨”–:542
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 323
+÷Æ«∞”–:310
+π≤Õ¨”–:308
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 264
+÷Æ«∞”–:253
+π≤Õ¨”–:249
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 220
+÷Æ«∞”–:217
+π≤Õ¨”–:217
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 222
+÷Æ«∞”–:223
+π≤Õ¨”–:220
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 584
+÷Æ«∞”–:570
+π≤Õ¨”–:559
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 560
+÷Æ«∞”–:558
+π≤Õ¨”–:528
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 515
+÷Æ«∞”–:553
+π≤Õ¨”–:502
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 595
+÷Æ«∞”–:587
+π≤Õ¨”–:573
+
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:7
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 304
+÷Æ«∞”–:283
+π≤Õ¨”–:277
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 82
+÷Æ«∞”–:81
+π≤Õ¨”–:80
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 406
+÷Æ«∞”–:400
+π≤Õ¨”–:389
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 657
+÷Æ«∞”–:655
+π≤Õ¨”–:640
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 232
+÷Æ«∞”–:231
+π≤Õ¨”–:227
+
+input1.6.2/4.25/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1659
+÷Æ«∞”–:1681
+π≤Õ¨”–:1625
+
+input1.6.2/4.25/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1694
+÷Æ«∞”–:1718
+π≤Õ¨”–:1670
+
+input1.6.2/4.25/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1681
+÷Æ«∞”–:1690
+π≤Õ¨”–:1636
+
+input1.6.2/4.25/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1694
+÷Æ«∞”–:1694
+π≤Õ¨”–:1659
+
+input1.6.2/4.25/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1618
+÷Æ«∞”–:1639
+π≤Õ¨”–:1585
+
+input1.6.2/4.25/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1755
+÷Æ«∞”–:1676
+π≤Õ¨”–:1653
+
+input1.6.2/4.25/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1104
+÷Æ«∞”–:1102
+π≤Õ¨”–:1070
+
+input1.6.2/4.25/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1073
+÷Æ«∞”–:1051
+π≤Õ¨”–:1037
+
+input1.6.2/4.25/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1071
+÷Æ«∞”–:1099
+π≤Õ¨”–:1061
+
+input1.6.2/4.25/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 744
+÷Æ«∞”–:735
+π≤Õ¨”–:721
+
+input1.6.2/4.25/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 731
+÷Æ«∞”–:687
+π≤Õ¨”–:680
+
+input1.6.2/4.25/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 711
+÷Æ«∞”–:690
+π≤Õ¨”–:678
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 489
+÷Æ«∞”–:491
+π≤Õ¨”–:468
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 516
+÷Æ«∞”–:540
+π≤Õ¨”–:494
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 523
+÷Æ«∞”–:531
+π≤Õ¨”–:496
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 460
+÷Æ«∞”–:532
+π≤Õ¨”–:443
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 147
+÷Æ«∞”–:141
+π≤Õ¨”–:139
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 646
+÷Æ«∞”–:644
+π≤Õ¨”–:628
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 851
+÷Æ«∞”–:861
+π≤Õ¨”–:847
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 549
+÷Æ«∞”–:538
+π≤Õ¨”–:529
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 427
+÷Æ«∞”–:444
+π≤Õ¨”–:397
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 412
+÷Æ«∞”–:446
+π≤Õ¨”–:396
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 377
+÷Æ«∞”–:428
+π≤Õ¨”–:366
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 393
+÷Æ«∞”–:413
+π≤Õ¨”–:383
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 576
+÷Æ«∞”–:556
+π≤Õ¨”–:545
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 581
+÷Æ«∞”–:540
+π≤Õ¨”–:532
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 447
+÷Æ«∞”–:410
+π≤Õ¨”–:404
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 513
+÷Æ«∞”–:489
+π≤Õ¨”–:484
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 592
+÷Æ«∞”–:546
+π≤Õ¨”–:541
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 322
+÷Æ«∞”–:310
+π≤Õ¨”–:307
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 269
+÷Æ«∞”–:253
+π≤Õ¨”–:249
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 221
+÷Æ«∞”–:217
+π≤Õ¨”–:217
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 223
+÷Æ«∞”–:223
+π≤Õ¨”–:220
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 564
+÷Æ«∞”–:570
+π≤Õ¨”–:546
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 561
+÷Æ«∞”–:558
+π≤Õ¨”–:528
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 512
+÷Æ«∞”–:553
+π≤Õ¨”–:497
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 582
+÷Æ«∞”–:587
+π≤Õ¨”–:561
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 143
+÷Æ«∞”–:140
+π≤Õ¨”–:135
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 148
+÷Æ«∞”–:134
+π≤Õ¨”–:131
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 133
+÷Æ«∞”–:139
+π≤Õ¨”–:125
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 118
+÷Æ«∞”–:147
+π≤Õ¨”–:116
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 137
+÷Æ«∞”–:123
+π≤Õ¨”–:116
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 173
+÷Æ«∞”–:156
+π≤Õ¨”–:155
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 101
+÷Æ«∞”–:90
+π≤Õ¨”–:90
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 115
+÷Æ«∞”–:112
+π≤Õ¨”–:109
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 108
+÷Æ«∞”–:115
+π≤Õ¨”–:107
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 143
+÷Æ«∞”–:140
+π≤Õ¨”–:136
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 152
+÷Æ«∞”–:134
+π≤Õ¨”–:133
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-40V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 124
+÷Æ«∞”–:139
+π≤Õ¨”–:118
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 113
+÷Æ«∞”–:147
+π≤Õ¨”–:112
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 136
+÷Æ«∞”–:123
+π≤Õ¨”–:116
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-30V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 169
+÷Æ«∞”–:156
+π≤Õ¨”–:155
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 103
+÷Æ«∞”–:90
+π≤Õ¨”–:90
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 113
+÷Æ«∞”–:112
+π≤Õ¨”–:109
+
+input1.6.2/4.25/HisMix_pH5_FAIMS_-20V_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 109
+÷Æ«∞”–:115
+π≤Õ¨”–:108
+
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 11
+÷Æ«∞”–:9
+π≤Õ¨”–:7
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 304
+÷Æ«∞”–:283
+π≤Õ¨”–:278
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 81
+÷Æ«∞”–:81
+π≤Õ¨”–:79
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 405
+÷Æ«∞”–:400
+π≤Õ¨”–:390
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 659
+÷Æ«∞”–:655
+π≤Õ¨”–:644
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 235
+÷Æ«∞”–:231
+π≤Õ¨”–:228
+
+input1.6.2/4.25/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1649
+÷Æ«∞”–:1681
+π≤Õ¨”–:1621
+
+input1.6.2/4.25/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1687
+÷Æ«∞”–:1718
+π≤Õ¨”–:1664
+
+input1.6.2/4.25/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1702
+÷Æ«∞”–:1690
+π≤Õ¨”–:1647
+
+input1.6.2/4.25/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1686
+÷Æ«∞”–:1694
+π≤Õ¨”–:1654
+
+input1.6.2/4.25/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1627
+÷Æ«∞”–:1639
+π≤Õ¨”–:1592
+
+input1.6.2/4.25/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1739
+÷Æ«∞”–:1676
+π≤Õ¨”–:1650
+
+input1.6.2/4.25/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1091
+÷Æ«∞”–:1102
+π≤Õ¨”–:1066
+
+input1.6.2/4.25/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1067
+÷Æ«∞”–:1051
+π≤Õ¨”–:1037
+
+input1.6.2/4.25/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1084
+÷Æ«∞”–:1099
+π≤Õ¨”–:1068
+
+input1.6.2/4.25/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 727
+÷Æ«∞”–:735
+π≤Õ¨”–:714
+
+input1.6.2/4.25/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 729
+÷Æ«∞”–:687
+π≤Õ¨”–:681
+
+input1.6.2/4.25/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 672
+÷Æ«∞”–:690
+π≤Õ¨”–:664
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 484
+÷Æ«∞”–:491
+π≤Õ¨”–:467
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 518
+÷Æ«∞”–:540
+π≤Õ¨”–:495
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 513
+÷Æ«∞”–:531
+π≤Õ¨”–:490
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_dimCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 461
+÷Æ«∞”–:532
+π≤Õ¨”–:444
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 146
+÷Æ«∞”–:141
+π≤Õ¨”–:139
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 646
+÷Æ«∞”–:644
+π≤Õ¨”–:628
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 852
+÷Æ«∞”–:861
+π≤Õ¨”–:849
+
+input1.6.2/4.25/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 546
+÷Æ«∞”–:538
+π≤Õ¨”–:528
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 430
+÷Æ«∞”–:444
+π≤Õ¨”–:399
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 405
+÷Æ«∞”–:446
+π≤Õ¨”–:390
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 372
+÷Æ«∞”–:428
+π≤Õ¨”–:355
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 395
+÷Æ«∞”–:413
+π≤Õ¨”–:386
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 586
+÷Æ«∞”–:556
+π≤Õ¨”–:550
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 594
+÷Æ«∞”–:540
+π≤Õ¨”–:535
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 444
+÷Æ«∞”–:410
+π≤Õ¨”–:407
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 522
+÷Æ«∞”–:489
+π≤Õ¨”–:486
+
+input1.6.2/4.25/20150930_TDQ_BC_Memory_techrep_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 606
+÷Æ«∞”–:546
+π≤Õ¨”–:544
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 318
+÷Æ«∞”–:310
+π≤Õ¨”–:307
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 264
+÷Æ«∞”–:253
+π≤Õ¨”–:248
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 220
+÷Æ«∞”–:217
+π≤Õ¨”–:217
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 224
+÷Æ«∞”–:223
+π≤Õ¨”–:221
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 571
+÷Æ«∞”–:570
+π≤Õ¨”–:552
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 563
+÷Æ«∞”–:558
+π≤Õ¨”–:529
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 470
+÷Æ«∞”–:553
+π≤Õ¨”–:463
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_midCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 590
+÷Æ«∞”–:587
+π≤Õ¨”–:571
+
+input1.6.2/5.7/Fraction_2_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 119
+÷Æ«∞”–:120
+π≤Õ¨”–:116
+
+input1.6.2/5.7/Fraction_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 76
+÷Æ«∞”–:81
+π≤Õ¨”–:76
+
+input1.6.2/5.7/Fraction_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 53
+÷Æ«∞”–:466
+π≤Õ¨”–:53
+
+input1.6.2/5.7/Histone_10ng_LPA_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 440
+÷Æ«∞”–:439
+π≤Õ¨”–:430
+
+input1.6.2/5.7/Histone_10ng_LPA_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 228
+÷Æ«∞”–:384
+π≤Õ¨”–:228
+
+input1.6.2/5.7/Histone_10ng_LPA_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 418
+÷Æ«∞”–:412
+π≤Õ¨”–:401
+
+input1.6.2/5.7/ESVO_NSI_5939_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 3
+÷Æ«∞”–:3
+π≤Õ¨”–:2
+
+input1.6.2/5.7/ESVO_NSI_5942_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 11
+÷Æ«∞”–:8
+π≤Õ¨”–:8
+
+input1.6.2/5.7/ESVO_NSI_5951_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 3
+÷Æ«∞”–:11
+π≤Õ¨”–:3
+
+input1.6.2/5.7/ESVO_NSI_5954_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:7
+
+input1.6.2/5.7/ESVO_NSI_5957_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 5
+÷Æ«∞”–:6
+π≤Õ¨”–:5
+
+input1.6.2/5.7/C1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 0
+÷Æ«∞”–:4
+π≤Õ¨”–:0
+
+input1.6.2/5.7/C2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 163
+÷Æ«∞”–:162
+π≤Õ¨”–:155
+
+input1.6.2/5.7/C3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 404
+÷Æ«∞”–:387
+π≤Õ¨”–:374
+
+input1.6.2/5.7/C4_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 323
+÷Æ«∞”–:429
+π≤Õ¨”–:320
+
+input1.6.2/5.7/C5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 408
+÷Æ«∞”–:482
+π≤Õ¨”–:398
+
+input1.6.2/5.7/C6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 897
+÷Æ«∞”–:898
+π≤Õ¨”–:868
+
+input1.6.2/5.7/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 191
+÷Æ«∞”–:183
+π≤Õ¨”–:181
+
+input1.6.2/5.7/F4_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 232
+÷Æ«∞”–:211
+π≤Õ¨”–:208
+
+input1.6.2/5.7/F5_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 634
+÷Æ«∞”–:614
+π≤Õ¨”–:605
+
+input1.6.2/5.7/F6_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 734
+÷Æ«∞”–:709
+π≤Õ¨”–:696
+
+input1.6.2/5.7/F6_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 993
+÷Æ«∞”–:978
+π≤Õ¨”–:962
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_22_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 94
+÷Æ«∞”–:62
+π≤Õ¨”–:57
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_23_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 147
+÷Æ«∞”–:141
+π≤Õ¨”–:135
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_24_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 130
+÷Æ«∞”–:53
+π≤Õ¨”–:52
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_25_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 86
+÷Æ«∞”–:52
+π≤Õ¨”–:50
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_26_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 81
+÷Æ«∞”–:79
+π≤Õ¨”–:72
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_27_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 123
+÷Æ«∞”–:77
+π≤Õ¨”–:77
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_28_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 108
+÷Æ«∞”–:104
+π≤Õ¨”–:95
+
+input1.6.2/5.7/ESVO_NSI_5939_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1012
+÷Æ«∞”–:912
+π≤Õ¨”–:906
+
+input1.6.2/5.7/ESVO_NSI_5942_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 758
+÷Æ«∞”–:758
+π≤Õ¨”–:730
+
+input1.6.2/5.7/ESVO_NSI_5951_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 848
+÷Æ«∞”–:823
+π≤Õ¨”–:804
+
+input1.6.2/5.7/ESVO_NSI_5954_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 672
+÷Æ«∞”–:659
+π≤Õ¨”–:630
+
+input1.6.2/5.7/ESVO_NSI_5957_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 652
+÷Æ«∞”–:609
+π≤Õ¨”–:597
+
+input1.6.2/5.7/TA352_G1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 257
+÷Æ«∞”–:249
+π≤Õ¨”–:237
+
+input1.6.2/5.7/TA352_G1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 257
+÷Æ«∞”–:249
+π≤Õ¨”–:237
+
+input1.6.2/5.7/TA353_G2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 273
+÷Æ«∞”–:303
+π≤Õ¨”–:268
+
+input1.6.2/5.7/TA354_G3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 240
+÷Æ«∞”–:261
+π≤Õ¨”–:219
+
+input1.6.2/5.7/TA358_B1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 230
+÷Æ«∞”–:265
+π≤Õ¨”–:210
+
+input1.6.2/5.7/TA359_B2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 233
+÷Æ«∞”–:271
+π≤Õ¨”–:225
+
+input1.6.2/5.7/TA360_B3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 231
+÷Æ«∞”–:307
+π≤Õ¨”–:229
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-19_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1662
+÷Æ«∞”–:1634
+π≤Õ¨”–:1620
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-20_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1642
+÷Æ«∞”–:1659
+π≤Õ¨”–:1626
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-21_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1626
+÷Æ«∞”–:1618
+π≤Õ¨”–:1598
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-22_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1713
+÷Æ«∞”–:1711
+π≤Õ¨”–:1682
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-23_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1699
+÷Æ«∞”–:1685
+π≤Õ¨”–:1662
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-24_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1674
+÷Æ«∞”–:1679
+π≤Õ¨”–:1643
+
+input1.6.2/4.25/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1649
+÷Æ«∞”–:1681
+π≤Õ¨”–:1621
+
+input1.6.2/4.25/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1687
+÷Æ«∞”–:1718
+π≤Õ¨”–:1664
+
+input1.6.2/4.25/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1702
+÷Æ«∞”–:1690
+π≤Õ¨”–:1647
+
+input1.6.2/4.25/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1686
+÷Æ«∞”–:1694
+π≤Õ¨”–:1654
+
+input1.6.2/4.25/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1627
+÷Æ«∞”–:1639
+π≤Õ¨”–:1592
+
+input1.6.2/4.25/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1739
+÷Æ«∞”–:1676
+π≤Õ¨”–:1650
+
+input1.6.2/4.25/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1091
+÷Æ«∞”–:1102
+π≤Õ¨”–:1066
+
+input1.6.2/4.25/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1067
+÷Æ«∞”–:1051
+π≤Õ¨”–:1037
+
+input1.6.2/4.25/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1084
+÷Æ«∞”–:1099
+π≤Õ¨”–:1068
+
+input1.6.2/4.25/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 727
+÷Æ«∞”–:735
+π≤Õ¨”–:714
+
+input1.6.2/4.25/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 729
+÷Æ«∞”–:687
+π≤Õ¨”–:681
+
+input1.6.2/4.25/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 672
+÷Æ«∞”–:690
+π≤Õ¨”–:664
+
+
+
+
+
+
+
+5.13
+
+
+
+input1.6.2/1/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1694
+÷Æ«∞”–:1681
+π≤Õ¨”–:1640
+
+input1.6.2/1/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1739
+÷Æ«∞”–:1718
+π≤Õ¨”–:1686
+
+input1.6.2/1/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1684
+÷Æ«∞”–:1690
+π≤Õ¨”–:1637
+
+input1.6.2/1/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1693
+÷Æ«∞”–:1694
+π≤Õ¨”–:1655
+
+input1.6.2/1/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1655
+÷Æ«∞”–:1639
+π≤Õ¨”–:1599
+
+input1.6.2/1/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1709
+÷Æ«∞”–:1676
+π≤Õ¨”–:1647
+
+input1.6.2/1/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1070
+÷Æ«∞”–:1102
+π≤Õ¨”–:1052
+
+input1.6.2/1/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1054
+÷Æ«∞”–:1051
+π≤Õ¨”–:1028
+
+input1.6.2/1/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1051
+÷Æ«∞”–:1099
+π≤Õ¨”–:1042
+
+input1.6.2/1/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 710
+÷Æ«∞”–:735
+π≤Õ¨”–:697
+
+input1.6.2/1/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 731
+÷Æ«∞”–:687
+π≤Õ¨”–:672
+
+input1.6.2/1/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 677
+÷Æ«∞”–:690
+π≤Õ¨”–:659
+
+
+
+
+input1.6.2/1/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1695
+÷Æ«∞”–:1681
+π≤Õ¨”–:1639
+
+input1.6.2/1/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1736
+÷Æ«∞”–:1718
+π≤Õ¨”–:1682
+
+input1.6.2/1/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1675
+÷Æ«∞”–:1690
+π≤Õ¨”–:1628
+
+input1.6.2/1/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1683
+÷Æ«∞”–:1694
+π≤Õ¨”–:1647
+
+input1.6.2/1/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1637
+÷Æ«∞”–:1639
+π≤Õ¨”–:1590
+
+input1.6.2/1/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1683
+÷Æ«∞”–:1676
+π≤Õ¨”–:1638
+
+input1.6.2/1/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1060
+÷Æ«∞”–:1102
+π≤Õ¨”–:1044
+
+input1.6.2/1/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1045
+÷Æ«∞”–:1051
+π≤Õ¨”–:1021
+
+input1.6.2/1/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1046
+÷Æ«∞”–:1099
+π≤Õ¨”–:1038
+
+input1.6.2/1/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 709
+÷Æ«∞”–:735
+π≤Õ¨”–:696
+
+input1.6.2/1/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 723
+÷Æ«∞”–:687
+π≤Õ¨”–:670
+
+input1.6.2/1/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 676
+÷Æ«∞”–:690
+π≤Õ¨”–:659
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 143
+÷Æ«∞”–:141
+π≤Õ¨”–:135
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 623
+÷Æ«∞”–:644
+π≤Õ¨”–:604
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 845
+÷Æ«∞”–:861
+π≤Õ¨”–:832
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 542
+÷Æ«∞”–:538
+π≤Õ¨”–:525
+
+input1.6.2/1/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 216
+÷Æ«∞”–:231
+π≤Õ¨”–:212
+
+input1.6.2/1/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1711
+÷Æ«∞”–:1681
+π≤Õ¨”–:1658
+
+input1.6.2/1/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1723
+÷Æ«∞”–:1718
+π≤Õ¨”–:1695
+
+input1.6.2/1/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1721
+÷Æ«∞”–:1690
+π≤Õ¨”–:1667
+
+input1.6.2/1/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1702
+÷Æ«∞”–:1694
+π≤Õ¨”–:1669
+
+input1.6.2/1/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1662
+÷Æ«∞”–:1639
+π≤Õ¨”–:1624
+
+input1.6.2/1/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1764
+÷Æ«∞”–:1676
+π≤Õ¨”–:1661
+
+input1.6.2/1/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1096
+÷Æ«∞”–:1102
+π≤Õ¨”–:1069
+
+input1.6.2/1/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1064
+÷Æ«∞”–:1051
+π≤Õ¨”–:1035
+
+input1.6.2/1/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1098
+÷Æ«∞”–:1099
+π≤Õ¨”–:1084
+
+input1.6.2/1/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 734
+÷Æ«∞”–:735
+π≤Õ¨”–:711
+
+input1.6.2/1/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 731
+÷Æ«∞”–:687
+π≤Õ¨”–:675
+
+input1.6.2/1/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 707
+÷Æ«∞”–:690
+π≤Õ¨”–:677
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 149
+÷Æ«∞”–:141
+π≤Õ¨”–:140
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 640
+÷Æ«∞”–:644
+π≤Õ¨”–:626
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 861
+÷Æ«∞”–:861
+π≤Õ¨”–:853
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 542
+÷Æ«∞”–:538
+π≤Õ¨”–:530
+
+input1.6.2/1/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 231
+÷Æ«∞”–:231
+π≤Õ¨”–:224
+
+
+
+zui hou
+
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 9
+÷Æ«∞”–:9
+π≤Õ¨”–:7
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 286
+÷Æ«∞”–:283
+π≤Õ¨”–:274
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 84
+÷Æ«∞”–:81
+π≤Õ¨”–:79
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 406
+÷Æ«∞”–:400
+π≤Õ¨”–:393
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 659
+÷Æ«∞”–:655
+π≤Õ¨”–:645
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 229
+÷Æ«∞”–:231
+π≤Õ¨”–:223
+
+input1.6.2/1/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1710
+÷Æ«∞”–:1681
+π≤Õ¨”–:1653
+
+input1.6.2/1/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1727
+÷Æ«∞”–:1718
+π≤Õ¨”–:1692
+
+input1.6.2/1/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1729
+÷Æ«∞”–:1690
+π≤Õ¨”–:1665
+
+input1.6.2/1/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1698
+÷Æ«∞”–:1694
+π≤Õ¨”–:1666
+
+input1.6.2/1/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1646
+÷Æ«∞”–:1639
+π≤Õ¨”–:1613
+
+input1.6.2/1/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1768
+÷Æ«∞”–:1676
+π≤Õ¨”–:1659
+
+input1.6.2/1/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1096
+÷Æ«∞”–:1102
+π≤Õ¨”–:1068
+
+input1.6.2/1/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1067
+÷Æ«∞”–:1051
+π≤Õ¨”–:1032
+
+input1.6.2/1/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1092
+÷Æ«∞”–:1099
+π≤Õ¨”–:1076
+
+input1.6.2/1/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 729
+÷Æ«∞”–:735
+π≤Õ¨”–:706
+
+input1.6.2/1/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 728
+÷Æ«∞”–:687
+π≤Õ¨”–:674
+
+input1.6.2/1/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 700
+÷Æ«∞”–:690
+π≤Õ¨”–:674
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 150
+÷Æ«∞”–:141
+π≤Õ¨”–:139
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 629
+÷Æ«∞”–:644
+π≤Õ¨”–:615
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 854
+÷Æ«∞”–:861
+π≤Õ¨”–:843
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 543
+÷Æ«∞”–:538
+π≤Õ¨”–:530
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 313
+÷Æ«∞”–:310
+π≤Õ¨”–:302
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 259
+÷Æ«∞”–:253
+π≤Õ¨”–:248
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 217
+÷Æ«∞”–:217
+π≤Õ¨”–:210
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 207
+÷Æ«∞”–:223
+π≤Õ¨”–:206
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-19_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1671
+÷Æ«∞”–:1634
+π≤Õ¨”–:1618
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-20_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1641
+÷Æ«∞”–:1659
+π≤Õ¨”–:1611
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-21_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1617
+÷Æ«∞”–:1618
+π≤Õ¨”–:1579
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-22_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1707
+÷Æ«∞”–:1711
+π≤Õ¨”–:1672
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-23_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1699
+÷Æ«∞”–:1685
+π≤Õ¨”–:1652
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-24_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1673
+÷Æ«∞”–:1679
+π≤Õ¨”–:1629
+
+input1.6.2/5.7/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 176
+÷Æ«∞”–:183
+π≤Õ¨”–:173
+
+input1.6.2/5.7/F4_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 211
+÷Æ«∞”–:211
+π≤Õ¨”–:199
+
+input1.6.2/5.7/F5_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 639
+÷Æ«∞”–:614
+π≤Õ¨”–:605
+
+input1.6.2/5.7/F6_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 744
+÷Æ«∞”–:709
+π≤Õ¨”–:699
+
+input1.6.2/5.7/F6_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 979
+÷Æ«∞”–:978
+π≤Õ¨”–:960
+
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:8
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 284
+÷Æ«∞”–:283
+π≤Õ¨”–:274
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 85
+÷Æ«∞”–:81
+π≤Õ¨”–:79
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 407
+÷Æ«∞”–:400
+π≤Õ¨”–:395
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 660
+÷Æ«∞”–:655
+π≤Õ¨”–:646
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 234
+÷Æ«∞”–:231
+π≤Õ¨”–:224
+
+input1.6.2/1/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1708
+÷Æ«∞”–:1681
+π≤Õ¨”–:1655
+
+input1.6.2/1/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1728
+÷Æ«∞”–:1718
+π≤Õ¨”–:1696
+
+input1.6.2/1/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1718
+÷Æ«∞”–:1690
+π≤Õ¨”–:1665
+
+input1.6.2/1/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1706
+÷Æ«∞”–:1694
+π≤Õ¨”–:1668
+
+input1.6.2/1/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1651
+÷Æ«∞”–:1639
+π≤Õ¨”–:1617
+
+input1.6.2/1/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1763
+÷Æ«∞”–:1676
+π≤Õ¨”–:1662
+
+input1.6.2/1/Experiment_4_620_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1098
+÷Æ«∞”–:1102
+π≤Õ¨”–:1070
+
+input1.6.2/1/Experiment_4_620_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1064
+÷Æ«∞”–:1051
+π≤Õ¨”–:1036
+
+input1.6.2/1/Experiment_4_620_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1091
+÷Æ«∞”–:1099
+π≤Õ¨”–:1079
+
+input1.6.2/1/Experiment_4_620_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 732
+÷Æ«∞”–:735
+π≤Õ¨”–:710
+
+input1.6.2/1/Experiment_4_620_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 737
+÷Æ«∞”–:687
+π≤Õ¨”–:676
+
+input1.6.2/1/Experiment_4_620_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 706
+÷Æ«∞”–:690
+π≤Õ¨”–:677
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 148
+÷Æ«∞”–:141
+π≤Õ¨”–:140
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 640
+÷Æ«∞”–:644
+π≤Õ¨”–:625
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 855
+÷Æ«∞”–:861
+π≤Õ¨”–:848
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 537
+÷Æ«∞”–:538
+π≤Õ¨”–:528
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 326
+÷Æ«∞”–:310
+π≤Õ¨”–:307
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 262
+÷Æ«∞”–:253
+π≤Õ¨”–:251
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 224
+÷Æ«∞”–:217
+π≤Õ¨”–:216
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 224
+÷Æ«∞”–:223
+π≤Õ¨”–:221
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-19_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1667
+÷Æ«∞”–:1634
+π≤Õ¨”–:1618
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-20_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1641
+÷Æ«∞”–:1659
+π≤Õ¨”–:1614
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-21_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1617
+÷Æ«∞”–:1618
+π≤Õ¨”–:1583
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-22_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1708
+÷Æ«∞”–:1711
+π≤Õ¨”–:1672
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-23_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1698
+÷Æ«∞”–:1685
+π≤Õ¨”–:1654
+
+input1.6.2/5.7/20170112_L_MaD_ColC4_Ecoli20161116-24_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1669
+÷Æ«∞”–:1679
+π≤Õ¨”–:1631
+
+input1.6.2/5.7/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 180
+÷Æ«∞”–:183
+π≤Õ¨”–:176
+
+input1.6.2/5.7/F4_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 219
+÷Æ«∞”–:211
+π≤Õ¨”–:207
+
+input1.6.2/5.7/F5_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 641
+÷Æ«∞”–:614
+π≤Õ¨”–:606
+
+input1.6.2/5.7/F6_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 741
+÷Æ«∞”–:709
+π≤Õ¨”–:701
+
+input1.6.2/5.7/F6_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 989
+÷Æ«∞”–:978
+π≤Õ¨”–:965
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_22_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 74
+÷Æ«∞”–:62
+π≤Õ¨”–:49
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_23_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 161
+÷Æ«∞”–:141
+π≤Õ¨”–:140
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_24_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 136
+÷Æ«∞”–:53
+π≤Õ¨”–:53
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_25_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 54
+÷Æ«∞”–:52
+π≤Õ¨”–:39
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_26_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 88
+÷Æ«∞”–:79
+π≤Õ¨”–:76
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_27_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 125
+÷Æ«∞”–:77
+π≤Õ¨”–:77
+
+input1.6.2/5.7/20181010_F1_Ag5_alban001_SA_TCx3_28_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 119
+÷Æ«∞”–:104
+π≤Õ¨”–:101
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_22_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 73
+÷Æ«∞”–:62
+π≤Õ¨”–:48
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_23_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 161
+÷Æ«∞”–:141
+π≤Õ¨”–:140
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_24_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 136
+÷Æ«∞”–:53
+π≤Õ¨”–:53
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_25_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 54
+÷Æ«∞”–:52
+π≤Õ¨”–:39
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_26_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 85
+÷Æ«∞”–:76
+π≤Õ¨”–:73
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_27_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 125
+÷Æ«∞”–:77
+π≤Õ¨”–:77
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_28_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 119
+÷Æ«∞”–:104
+π≤Õ¨”–:101
+
+input1.6.2/5.7/ESVO_NSI_5939_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1016
+÷Æ«∞”–:912
+π≤Õ¨”–:898
+
+input1.6.2/5.7/ESVO_NSI_5942_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 773
+÷Æ«∞”–:758
+π≤Õ¨”–:736
+
+input1.6.2/5.7/ESVO_NSI_5951_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 861
+÷Æ«∞”–:823
+π≤Õ¨”–:806
+
+input1.6.2/5.7/ESVO_NSI_5954_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 692
+÷Æ«∞”–:659
+π≤Õ¨”–:635
+
+input1.6.2/5.7/ESVO_NSI_5957_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 667
+÷Æ«∞”–:609
+π≤Õ¨”–:601
+
+input1.6.2/4.25/1M_05AA_ecoli_400nL_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1295
+÷Æ«∞”–:1301
+π≤Õ¨”–:1277
+
+input1.6.2/5.7/C1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 0
+÷Æ«∞”–:4
+π≤Õ¨”–:0
+
+input1.6.2/5.7/C2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 157
+÷Æ«∞”–:162
+π≤Õ¨”–:152
+
+input1.6.2/5.7/C3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 387
+÷Æ«∞”–:387
+π≤Õ¨”–:379
+
+input1.6.2/5.7/C4_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 414
+÷Æ«∞”–:429
+π≤Õ¨”–:404
+
+input1.6.2/5.7/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 180
+÷Æ«∞”–:183
+π≤Õ¨”–:176
+
+input1.6.2/5.7/F4_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 219
+÷Æ«∞”–:211
+π≤Õ¨”–:207
+
+input1.6.2/5.7/F5_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 641
+÷Æ«∞”–:614
+π≤Õ¨”–:606
+
+input1.6.2/5.7/F6_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 741
+÷Æ«∞”–:709
+π≤Õ¨”–:701
+
+input1.6.2/5.7/F6_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 989
+÷Æ«∞”–:978
+π≤Õ¨”–:965
+
+input1.6.2/5.7/C1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 0
+÷Æ«∞”–:4
+π≤Õ¨”–:0
+
+input1.6.2/5.7/C2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 157
+÷Æ«∞”–:162
+π≤Õ¨”–:152
+
+input1.6.2/5.7/C3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 387
+÷Æ«∞”–:387
+π≤Õ¨”–:379
+
+input1.6.2/5.7/C4_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 414
+÷Æ«∞”–:429
+π≤Õ¨”–:404
+
+input1.6.2/5.7/C5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 458
+÷Æ«∞”–:482
+π≤Õ¨”–:449
+
+input1.6.2/5.7/C6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 911
+÷Æ«∞”–:898
+π≤Õ¨”–:873
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 471
+÷Æ«∞”–:444
+π≤Õ¨”–:436
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 471
+÷Æ«∞”–:444
+π≤Õ¨”–:436
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 471
+÷Æ«∞”–:444
+π≤Õ¨”–:436
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 471
+÷Æ«∞”–:444
+π≤Õ¨”–:436
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 471
+÷Æ«∞”–:444
+π≤Õ¨”–:436
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 449
+÷Æ«∞”–:446
+π≤Õ¨”–:433
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 389
+÷Æ«∞”–:428
+π≤Õ¨”–:377
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_pool_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 424
+÷Æ«∞”–:413
+π≤Õ¨”–:409
+
+input1.6.2/5.7/ESVO_NSI_5942_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 773
+÷Æ«∞”–:758
+π≤Õ¨”–:736
+
+input1.6.2/5.7/ESVO_NSI_5942_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 773
+÷Æ«∞”–:758
+π≤Õ¨”–:736
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_22_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 73
+÷Æ«∞”–:62
+π≤Õ¨”–:48
+
+input1.6.2/5.7/ESVO_NSI_5942_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 773
+÷Æ«∞”–:758
+π≤Õ¨”–:736
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_24_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 136
+÷Æ«∞”–:53
+π≤Õ¨”–:53
+
+input1.6.2/Human_E/Experiment_4_480_F1_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 936
+÷Æ«∞”–:948
+π≤Õ¨”–:922
+
+input1.6.2/Human_E/Experiment_4_480_F1_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 995
+÷Æ«∞”–:999
+π≤Õ¨”–:981
+
+input1.6.2/Human_E/Experiment_4_480_F1_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1113
+÷Æ«∞”–:1102
+π≤Õ¨”–:1085
+
+input1.6.2/Human_E/Experiment_4_480_F2_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 442
+÷Æ«∞”–:436
+π≤Õ¨”–:416
+
+input1.6.2/Human_E/Experiment_4_480_F2_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 357
+÷Æ«∞”–:350
+π≤Õ¨”–:343
+
+input1.6.2/Human_E/Experiment_4_480_F2_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 396
+÷Æ«∞”–:406
+π≤Õ¨”–:392
+
+input1.6.2/Human_E/Experiment_4_480_F6_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 792
+÷Æ«∞”–:777
+π≤Õ¨”–:766
+
+input1.6.2/Human_E/Experiment_4_480_F6_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 761
+÷Æ«∞”–:736
+π≤Õ¨”–:725
+
+input1.6.2/Human_E/Experiment_4_480_F6_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 781
+÷Æ«∞”–:789
+π≤Õ¨”–:771
+
+input1.6.2/Human_E/Experiment_4_480_F5_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 976
+÷Æ«∞”–:958
+π≤Õ¨”–:938
+
+input1.6.2/Human_E/Experiment_4_480_F5_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1071
+÷Æ«∞”–:1057
+π≤Õ¨”–:1037
+
+input1.6.2/Human_E/Experiment_4_480_F5_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1057
+÷Æ«∞”–:1039
+π≤Õ¨”–:1025
+
+input1.6.2/Human_E/Experiment_4_620_F1_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1101
+÷Æ«∞”–:1082
+π≤Õ¨”–:1072
+
+input1.6.2/Human_E/Experiment_4_620_F1_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1080
+÷Æ«∞”–:1073
+π≤Õ¨”–:1060
+
+input1.6.2/Human_E/Experiment_4_620_F1_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1188
+÷Æ«∞”–:1173
+π≤Õ¨”–:1149
+
+input1.6.2/Human_E/Experiment_4_620_F2_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 582
+÷Æ«∞”–:572
+π≤Õ¨”–:563
+
+input1.6.2/Human_E/Experiment_4_620_F2_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 589
+÷Æ«∞”–:560
+π≤Õ¨”–:554
+
+input1.6.2/Human_E/Experiment_4_620_F2_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 776
+÷Æ«∞”–:763
+π≤Õ¨”–:746
+
+input1.6.2/Human_E/Experiment_4_620_F3_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1543
+÷Æ«∞”–:1498
+π≤Õ¨”–:1488
+
+input1.6.2/Human_E/Experiment_4_620_F3_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1505
+÷Æ«∞”–:1460
+π≤Õ¨”–:1446
+
+input1.6.2/Human_E/Experiment_4_620_F3_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1527
+÷Æ«∞”–:1488
+π≤Õ¨”–:1471
+
+input1.6.2/Human_E/Experiment_4_620_F4_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1047
+÷Æ«∞”–:1038
+π≤Õ¨”–:1019
+
+input1.6.2/Human_E/Experiment_4_620_F4_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1043
+÷Æ«∞”–:1046
+π≤Õ¨”–:1025
+
+input1.6.2/Human_E/Experiment_4_620_F4_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1087
+÷Æ«∞”–:1074
+π≤Õ¨”–:1060
+
+input1.6.2/Human_E/Experiment_4_480_F3_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1353
+÷Æ«∞”–:1328
+π≤Õ¨”–:1314
+
+input1.6.2/Human_E/Experiment_4_480_F3_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1366
+÷Æ«∞”–:1330
+π≤Õ¨”–:1316
+
+input1.6.2/Human_E/Experiment_4_480_F3_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1315
+÷Æ«∞”–:1312
+π≤Õ¨”–:1294
+
+input1.6.2/Human_E/Experiment_4_480_F4_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 829
+÷Æ«∞”–:786
+π≤Õ¨”–:779
+
+input1.6.2/Human_E/Experiment_4_480_F4_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1417
+÷Æ«∞”–:1359
+π≤Õ¨”–:1349
+
+input1.6.2/Human_E/Experiment_4_480_F4_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 961
+÷Æ«∞”–:953
+π≤Õ¨”–:937
+
+input1.6.2/0.1/FB_CB_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 8610
+÷Æ«∞”–:8345
+π≤Õ¨”–:8270
+
+input1.6.2/0.1/FB_CB_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 9249
+÷Æ«∞”–:9019
+π≤Õ¨”–:8946
+
+input1.6.2/0.1/FB_CB_4_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 9253
+÷Æ«∞”–:8989
+π≤Õ¨”–:8906
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 570
+÷Æ«∞”–:556
+π≤Õ¨”–:550
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 563
+÷Æ«∞”–:540
+π≤Õ¨”–:534
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 422
+÷Æ«∞”–:410
+π≤Õ¨”–:403
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 519
+÷Æ«∞”–:489
+π≤Õ¨”–:486
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 571
+÷Æ«∞”–:546
+π≤Õ¨”–:539
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_highCD10_techrep01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 356
+÷Æ«∞”–:333
+π≤Õ¨”–:328
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_highCD10_techrep02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 457
+÷Æ«∞”–:420
+π≤Õ¨”–:414
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_highCD10_techrep03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 428
+÷Æ«∞”–:423
+π≤Õ¨”–:411
+
+input1.6.2/4.25/20150927_BM_sort_2E6_CD19_highCD10_techrep04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 505
+÷Æ«∞”–:430
+π≤Õ¨”–:428
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 570
+÷Æ«∞”–:556
+π≤Õ¨”–:550
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 563
+÷Æ«∞”–:540
+π≤Õ¨”–:534
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 422
+÷Æ«∞”–:410
+π≤Õ¨”–:403
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_04_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 519
+÷Æ«∞”–:489
+π≤Õ¨”–:486
+
+input1.6.2/0.1/20150930_TDQ_BC_Memory_techrep_05_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 571
+÷Æ«∞”–:546
+π≤Õ¨”–:539
+
+input1.6.2/0.1/FB_CB_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 8610
+÷Æ«∞”–:8345
+input1.6.2/5.7/C6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 911
+÷Æ«∞”–:898
+π≤Õ¨”–:873
+
+input1.6.2/5.7/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 180
+÷Æ«∞”–:183
+π≤Õ¨”–:176
+
+input1.6.2/5.7/F4_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 219
+÷Æ«∞”–:211
+π≤Õ¨”–:207
+
+input1.6.2/5.7/F5_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 641
+÷Æ«∞”–:614
+π≤Õ¨”–:606
+
+input1.6.2/5.7/F6_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 741
+÷Æ«∞”–:709
+π≤Õ¨”–:701
+
+input1.6.2/5.7/F6_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 989
+÷Æ«∞”–:978
+π≤Õ¨”–:965
+
+input1.6.2/0.1/FB_CB_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 8610
+÷Æ«∞”–:8345
+π≤Õ¨”–:8270
+
+input1.6.2/0.1/FB_CB_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 9249
+÷Æ«∞”–:9019
+π≤Õ¨”–:8946
+
+input1.6.2/0.1/FB_CB_4_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 9253
+÷Æ«∞”–:8989
+π≤Õ¨”–:8906
+
+input1.6.2/4.25/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:8
+
+input1.6.2/4.25/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 284
+÷Æ«∞”–:283
+π≤Õ¨”–:274
+
+input1.6.2/4.25/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 85
+÷Æ«∞”–:81
+π≤Õ¨”–:79
+
+input1.6.2/4.25/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 407
+÷Æ«∞”–:400
+π≤Õ¨”–:395
+
+input1.6.2/4.25/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 660
+÷Æ«∞”–:655
+π≤Õ¨”–:646
+
+input1.6.2/4.25/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 234
+÷Æ«∞”–:231
+π≤Õ¨”–:224
+
+input1.6.2/1/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1708
+÷Æ«∞”–:1681
+π≤Õ¨”–:1655
+
+input1.6.2/1/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1728
+÷Æ«∞”–:1718
+π≤Õ¨”–:1696
+
+input1.6.2/1/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1718
+÷Æ«∞”–:1690
+π≤Õ¨”–:1665
+
+input1.6.2/1/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1706
+÷Æ«∞”–:1694
+π≤Õ¨”–:1668
+
+input1.6.2/1/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1651
+÷Æ«∞”–:1639
+π≤Õ¨”–:1617
+
+input1.6.2/1/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1763
+÷Æ«∞”–:1676
+π≤Õ¨”–:1662
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 148
+÷Æ«∞”–:141
+π≤Õ¨”–:140
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 640
+÷Æ«∞”–:644
+π≤Õ¨”–:625
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 855
+÷Æ«∞”–:861
+π≤Õ¨”–:848
+
+input1.6.2/1/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 537
+÷Æ«∞”–:538
+π≤Õ¨”–:528
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 326
+÷Æ«∞”–:310
+π≤Õ¨”–:307
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 262
+÷Æ«∞”–:253
+π≤Õ¨”–:251
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 224
+÷Æ«∞”–:217
+π≤Õ¨”–:216
+
+input1.6.2/4.25/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 224
+÷Æ«∞”–:223
+π≤Õ¨”–:221
+
+input1.6.2/5.7/ESVO_NSI_5939_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1016
+÷Æ«∞”–:912
+π≤Õ¨”–:898
+
+input1.6.2/5.7/ESVO_NSI_5942_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 773
+÷Æ«∞”–:758
+π≤Õ¨”–:736
+
+input1.6.2/5.7/ESVO_NSI_5951_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 861
+÷Æ«∞”–:823
+π≤Õ¨”–:806
+
+input1.6.2/5.7/ESVO_NSI_5954_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 692
+÷Æ«∞”–:659
+π≤Õ¨”–:635
+
+input1.6.2/5.7/ESVO_NSI_5957_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 667
+÷Æ«∞”–:609
+π≤Õ¨”–:601
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_22_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 73
+÷Æ«∞”–:62
+π≤Õ¨”–:48
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_23_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 161
+÷Æ«∞”–:141
+π≤Õ¨”–:140
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_24_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 136
+÷Æ«∞”–:53
+π≤Õ¨”–:53
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_25_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 54
+÷Æ«∞”–:52
+π≤Õ¨”–:39
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_26_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 85
+÷Æ«∞”–:76
+π≤Õ¨”–:73
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_27_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 125
+÷Æ«∞”–:77
+π≤Õ¨”–:77
+
+input1.6.2/1/20181010_F1_Ag5_alban001_SA_TCx3_28_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 119
+÷Æ«∞”–:104
+π≤Õ¨”–:101
+
+input1.6.2/Human_E/Experiment_4_620_F1_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1101
+÷Æ«∞”–:1082
+π≤Õ¨”–:1072
+
+input1.6.2/Human_E/Experiment_4_620_F1_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1080
+÷Æ«∞”–:1073
+π≤Õ¨”–:1060
+
+input1.6.2/Human_E/Experiment_4_620_F1_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1188
+÷Æ«∞”–:1173
+π≤Õ¨”–:1149
+
+input1.6.2/Human_E/Experiment_4_620_F2_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 582
+÷Æ«∞”–:572
+π≤Õ¨”–:563
+
+input1.6.2/Human_E/Experiment_4_620_F2_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 589
+÷Æ«∞”–:560
+π≤Õ¨”–:554
+
+input1.6.2/Human_E/Experiment_4_620_F2_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 776
+÷Æ«∞”–:763
+π≤Õ¨”–:746
+
+
+
+2024.5.27
+
+
+
+
+
+
+input1.6.2/test/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:8
+
+input1.6.2/test/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 284
+÷Æ«∞”–:283
+π≤Õ¨”–:274
+
+input1.6.2/test/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 85
+÷Æ«∞”–:81
+π≤Õ¨”–:79
+
+input1.6.2/test/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 407
+÷Æ«∞”–:400
+π≤Õ¨”–:395
+
+input1.6.2/test/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 660
+÷Æ«∞”–:655
+π≤Õ¨”–:646
+
+input1.6.2/test/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 234
+÷Æ«∞”–:231
+π≤Õ¨”–:224
+
+input1.6.2/test/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1708
+÷Æ«∞”–:1681
+π≤Õ¨”–:1655
+
+input1.6.2/test/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1728
+÷Æ«∞”–:1718
+π≤Õ¨”–:1696
+
+input1.6.2/test/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1718
+÷Æ«∞”–:1690
+π≤Õ¨”–:1665
+
+input1.6.2/test/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1706
+÷Æ«∞”–:1694
+π≤Õ¨”–:1668
+
+input1.6.2/test/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1651
+÷Æ«∞”–:1639
+π≤Õ¨”–:1617
+
+input1.6.2/test/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1763
+÷Æ«∞”–:1676
+π≤Õ¨”–:1662
+
+input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 148
+÷Æ«∞”–:141
+π≤Õ¨”–:140
+
+input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 640
+÷Æ«∞”–:644
+π≤Õ¨”–:625
+
+input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 855
+÷Æ«∞”–:861
+π≤Õ¨”–:848
+
+input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 537
+÷Æ«∞”–:538
+π≤Õ¨”–:528
+
+input1.6.2/test/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 326
+÷Æ«∞”–:310
+π≤Õ¨”–:307
+
+input1.6.2/test/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 262
+÷Æ«∞”–:253
+π≤Õ¨”–:251
+
+input1.6.2/test/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 224
+÷Æ«∞”–:217
+π≤Õ¨”–:216
+
+input1.6.2/test/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 224
+÷Æ«∞”–:223
+π≤Õ¨”–:221
+
+input1.6.2/test/ESVO_NSI_5939_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1016
+÷Æ«∞”–:912
+π≤Õ¨”–:898
+
+input1.6.2/test/ESVO_NSI_5942_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 773
+÷Æ«∞”–:758
+π≤Õ¨”–:736
+
+input1.6.2/test/ESVO_NSI_5951_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 861
+÷Æ«∞”–:823
+π≤Õ¨”–:806
+
+input1.6.2/test/ESVO_NSI_5954_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 692
+÷Æ«∞”–:659
+π≤Õ¨”–:635
+
+input1.6.2/test/ESVO_NSI_5957_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 667
+÷Æ«∞”–:609
+π≤Õ¨”–:601
+
+input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_22_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 74
+÷Æ«∞”–:62
+π≤Õ¨”–:49
+
+input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_23_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 161
+÷Æ«∞”–:141
+π≤Õ¨”–:140
+
+input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_24_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 136
+÷Æ«∞”–:53
+π≤Õ¨”–:53
+
+input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_25_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 54
+÷Æ«∞”–:52
+π≤Õ¨”–:39
+
+input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_26_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 88
+÷Æ«∞”–:79
+π≤Õ¨”–:76
+
+input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_27_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 125
+÷Æ«∞”–:77
+π≤Õ¨”–:77
+
+input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_28_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 119
+÷Æ«∞”–:104
+π≤Õ¨”–:101
+
+input1.6.2/test/C6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 911
+÷Æ«∞”–:898
+π≤Õ¨”–:873
+
+input1.6.2/test/F4_1_ms2_toppic_prsm_AT.xml
+÷ÿ¥Ú∑÷∫Û”–: 180
+÷Æ«∞”–:183
+π≤Õ¨”–:176
+
+input1.6.2/test/F4_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 219
+÷Æ«∞”–:211
+π≤Õ¨”–:207
+
+input1.6.2/test/F5_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 641
+÷Æ«∞”–:614
+π≤Õ¨”–:606
+
+input1.6.2/test/F6_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 741
+÷Æ«∞”–:709
+π≤Õ¨”–:701
+
+input1.6.2/test/F6_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 989
+÷Æ«∞”–:978
+π≤Õ¨”–:965
+
+input1.6.2/test/Experiment_4_620_F1_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1101
+÷Æ«∞”–:1082
+π≤Õ¨”–:1072
+
+input1.6.2/test/Experiment_4_620_F1_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1080
+÷Æ«∞”–:1073
+π≤Õ¨”–:1060
+
+input1.6.2/test/Experiment_4_620_F1_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1188
+÷Æ«∞”–:1173
+π≤Õ¨”–:1149
+
+input1.6.2/test/Experiment_4_620_F2_01_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 582
+÷Æ«∞”–:572
+π≤Õ¨”–:563
+
+input1.6.2/test/Experiment_4_620_F2_02_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 589
+÷Æ«∞”–:560
+π≤Õ¨”–:554
+
+input1.6.2/test/Experiment_4_620_F2_03_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 776
+÷Æ«∞”–:763
+π≤Õ¨”–:746
+
+sss
+
+
+input1.6.2/test/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:8
+
+input1.6.2/test/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 284
+÷Æ«∞”–:283
+π≤Õ¨”–:274
+
+input1.6.2/test/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 85
+÷Æ«∞”–:81
+π≤Õ¨”–:79
+
+input1.6.2/test/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 407
+÷Æ«∞”–:400
+π≤Õ¨”–:395
+
+input1.6.2/test/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 660
+÷Æ«∞”–:655
+π≤Õ¨”–:646
+
+input1.6.2/test/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 234
+÷Æ«∞”–:231
+π≤Õ¨”–:224
+
+input1.6.2/test/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1708
+÷Æ«∞”–:1681
+π≤Õ¨”–:1655
+
+input1.6.2/test/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1728
+÷Æ«∞”–:1718
+π≤Õ¨”–:1696
+
+input1.6.2/test/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1718
+÷Æ«∞”–:1690
+π≤Õ¨”–:1665
+
+input1.6.2/test/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1706
+÷Æ«∞”–:1694
+π≤Õ¨”–:1668
+
+input1.6.2/test/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1651
+÷Æ«∞”–:1639
+π≤Õ¨”–:1617
+
+input1.6.2/test/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1763
+÷Æ«∞”–:1676
+π≤Õ¨”–:1662
+
+input1.6.2/test/F1_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 10
+÷Æ«∞”–:9
+π≤Õ¨”–:8
+
+input1.6.2/test/F2_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 284
+÷Æ«∞”–:283
+π≤Õ¨”–:274
+
+input1.6.2/test/F1_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 85
+÷Æ«∞”–:81
+π≤Õ¨”–:79
+
+input1.6.2/test/F2_2_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 407
+÷Æ«∞”–:400
+π≤Õ¨”–:395
+
+input1.6.2/test/F3_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 660
+÷Æ«∞”–:655
+π≤Õ¨”–:646
+
+input1.6.2/test/F4_1_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 234
+÷Æ«∞”–:231
+π≤Õ¨”–:224
+
+input1.6.2/test/Yeast_3_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1708
+÷Æ«∞”–:1681
+π≤Õ¨”–:1655
+
+input1.6.2/test/Yeast_5_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1728
+÷Æ«∞”–:1718
+π≤Õ¨”–:1696
+
+input1.6.2/test/Yeast_6_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1718
+÷Æ«∞”–:1690
+π≤Õ¨”–:1665
+
+input1.6.2/test/Yeast_7_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1706
+÷Æ«∞”–:1694
+π≤Õ¨”–:1668
+
+input1.6.2/test/Yeast_8_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1651
+÷Æ«∞”–:1639
+π≤Õ¨”–:1617
+
+input1.6.2/test/Yeast_9_ms2_toppic_prsm.xml
+÷ÿ¥Ú∑÷∫Û”–: 1763
+÷Æ«∞”–:1676
+π≤Õ¨”–:1662
+
+input1.6.2/test/F1_1_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 10
+‰πãÂâçÊúâ:9
+ÂÖ±ÂêåÊúâ:8
+
+input1.6.2/test/F2_1_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 286
+‰πãÂâçÊúâ:283
+ÂÖ±ÂêåÊúâ:275
+
+input1.6.2/test/F1_2_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 84
+‰πãÂâçÊúâ:81
+ÂÖ±ÂêåÊúâ:79
+
+input1.6.2/test/F2_2_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 417
+‰πãÂâçÊúâ:400
+ÂÖ±ÂêåÊúâ:395
+
+input1.6.2/test/F3_1_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 669
+‰πãÂâçÊúâ:655
+ÂÖ±ÂêåÊúâ:649
+
+input1.6.2/test/F4_1_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 232
+‰πãÂâçÊúâ:231
+ÂÖ±ÂêåÊúâ:225
+
+input1.6.2/test/Yeast_3_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 1700
+‰πãÂâçÊúâ:1681
+ÂÖ±ÂêåÊúâ:1654
+
+input1.6.2/test/Yeast_5_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 1739
+‰πãÂâçÊúâ:1718
+ÂÖ±ÂêåÊúâ:1694
+
+input1.6.2/test/Yeast_6_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 1726
+‰πãÂâçÊúâ:1690
+ÂÖ±ÂêåÊúâ:1668
+
+input1.6.2/test/Yeast_7_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 1711
+‰πãÂâçÊúâ:1694
+ÂÖ±ÂêåÊúâ:1671
+
+input1.6.2/test/Yeast_8_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 1664
+‰πãÂâçÊúâ:1639
+ÂÖ±ÂêåÊúâ:1615
+
+input1.6.2/test/Yeast_9_ms2_toppic_prsm.xml
+ÈáçÊâìÂàÜÂêéÊúâ: 1742
+‰πãÂâçÊúâ:1676
+ÂÖ±ÂêåÊúâ:1655
+
