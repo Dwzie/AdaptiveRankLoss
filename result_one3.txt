@@ -3508,3 +3508,63 @@ input1.6.2/test/Yeast_9_ms2_toppic_prsm.xml
 之前有:1676
 共同有:1655
 
+input1.6.2/test/F1_1_ms2_toppic_prsm.xml
+重打分后有: 10
+之前有:9
+共同有:8
+
+input1.6.2/test/F2_1_ms2_toppic_prsm.xml
+重打分后有: 286
+之前有:283
+共同有:275
+
+input1.6.2/test/F1_2_ms2_toppic_prsm.xml
+重打分后有: 84
+之前有:81
+共同有:79
+
+input1.6.2/test/F2_2_ms2_toppic_prsm.xml
+重打分后有: 417
+之前有:400
+共同有:395
+
+input1.6.2/test/F3_1_ms2_toppic_prsm.xml
+重打分后有: 669
+之前有:655
+共同有:649
+
+input1.6.2/test/F4_1_ms2_toppic_prsm.xml
+重打分后有: 232
+之前有:231
+共同有:225
+
+input1.6.2/test/Yeast_3_ms2_toppic_prsm.xml
+重打分后有: 1700
+之前有:1681
+共同有:1654
+
+input1.6.2/test/Yeast_5_ms2_toppic_prsm.xml
+重打分后有: 1739
+之前有:1718
+共同有:1694
+
+input1.6.2/test/Yeast_6_ms2_toppic_prsm.xml
+重打分后有: 1726
+之前有:1690
+共同有:1668
+
+input1.6.2/test/Yeast_7_ms2_toppic_prsm.xml
+重打分后有: 1711
+之前有:1694
+共同有:1671
+
+input1.6.2/test/Yeast_8_ms2_toppic_prsm.xml
+重打分后有: 1664
+之前有:1639
+共同有:1615
+
+input1.6.2/test/Yeast_9_ms2_toppic_prsm.xml
+重打分后有: 1742
+之前有:1676
+共同有:1655
+

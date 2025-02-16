@@ -30,27 +30,25 @@ def input1(name):
 
 def predict(filename):
     model = ResNeXt(input_size=input_size, hidden_size=hidden_size, num_classes=num_classes, num_blocks=num_blocks, cardinality=cardinality)
-    x, y,z = input1(filename)
+    x, y, z = input1(filename)
     model = joblib.load(filename="saved_model5/DP.pkl")
     x = x.to(torch.float32)
     score = model(x)
     score = score.detach().numpy()
     score = score.reshape(-1, 1)
-    # print(np.log2(e))
-    # score= score*5 - np.log10(e)
     y = y.reshape(-1, 1)
-    z=z.reshape(-1, 1)
+    z = z.reshape(-1, 1)
 
-    score_label = np.concatenate((score, y,z), axis=1)
+    score_label = np.concatenate((score, y, z), axis=1)
 
     toprank = sorted(score_label, key=lambda x: x[0], reverse=True)
     ppp = np.array(toprank)
     fdr = 0
     target = 1
     decoy = 0
-    top=0
-    nixu=list()
-    size=len(ppp)
+    top = 0
+    nixu = list()
+    size = len(ppp)
     f = open('result_one3.txt', 'a')
     for i in ppp:
         if (i[1] == 1.0):
@@ -64,12 +62,12 @@ def predict(filename):
     nixu.reverse()
     for i in nixu:
         if i <= 0.01:
-            top=size-1-nixu.index(i)
+            top = size - 1 - nixu.index(i)
             break
     f.write(filename)
     f.write('\n')
-    A=list()
-    B=list()
+    A = list()
+    B = list()
     f.write('重打分后有: ')
     f.write(str(top))
     f.write('\n')
@@ -77,14 +75,13 @@ def predict(filename):
     for i in range(top):
         A.append(str(ppp[i][2]))
 
-    e_fdr=RERANKPRSM_upgrade_train.getevalue_and_fdr(filename)
-    cs=list()
+    e_fdr = RERANKPRSM_upgrade_train.getevalue_and_fdr(filename)
+    cs = list()
     z = z.detach().numpy()
     for i in range(size):
-        cs.append([e_fdr[i][0],e_fdr[i][1],z[i]])
-    toprank2= sorted(cs, key=lambda x: x[0], reverse=True)
-    # ppp = np.array(toprank2)
-    nixu=sorted(cs, key=lambda x: x[0], reverse=False)
+        cs.append([e_fdr[i][0], e_fdr[i][1], z[i]])
+    toprank2 = sorted(cs, key=lambda x: x[0], reverse=True)
+    nixu = sorted(cs, key=lambda x: x[0], reverse=False)
 
     top = 0
     size = len(toprank2)
@@ -94,63 +91,69 @@ def predict(filename):
             break
     for i in range(top):
         B.append(str(nixu[i][2]).strip("]").strip("["))
+
     f.write('之前有:')
     f.write(str(top))
     f.write('\n')
-    C=0
-    C2=0
-    cha=list()
+    C = 0
+    C2 = 0
+    cha = list()
     cha2 = list()
-    chaprsm=list()
+    chaprsm = list()
     chaprsm2 = list()
     for i in A:
         break_flag = False
         for j in B:
-            if int(j)==int(float(i)):
-                C=C+1
-                break_flag=True
+            if int(j) == int(float(i)):
+                C = C + 1
+                break_flag = True
                 break
-        if break_flag==True:
+        if break_flag == True:
             continue
         cha.append(i)
 
     for i in B:
         break_flag = False
         for j in A:
-            if int(i)==int(float(j)):
-                C2=C2+1
-                break_flag=True
+            if int(i) == int(float(j)):
+                C2 = C2 + 1
+                break_flag = True
                 break
-        if break_flag==True:
+        if break_flag == True:
             continue
         cha2.append(i)
-    xx= x.numpy().tolist()
+    xx = x.numpy().tolist()
 
-    for i in cha:       #PRSMREscore独有的
-        chaprsm.append([str(int(xx[int(float(i))][0]*34+0.1)),str(int(xx[int(float(i))][1]*24+0.1)),
-                        str(int(xx[int(float(i))][2]+0.1)),str((e_fdr[int(float(i))][1])),i])
-    # print(chaprsm)
-    for i in cha2:      #toppic独有的
+    for i in cha:  # PRSMREscore独有的
+        chaprsm.append([str(int(xx[int(float(i))][0] * 34 + 0.1)), str(int(xx[int(float(i))][1] * 24 + 0.1)),
+                        str(int(xx[int(float(i))][2] + 0.1)), str((e_fdr[int(float(i))][1])), i])
+    for i in cha2:  # toppic独有的
         chaprsm2.append([str(int(xx[int(float(i))][0] * 34 + 0.1)), str(int(xx[int(float(i))][1] * 24 + 0.1)),
-                        str(int(xx[int(float(i))][2] + 0.1)),str((e_fdr[int(float(i))][1])),i])
-        # print(chaprsm)
-    chaprsm.append(["***","***",filename])
-    chaprsm2.append(["***", "***", filename])
+                         str(int(xx[int(float(i))][2] + 0.1)), str((e_fdr[int(float(i))][1])), i])
+
+    chaprsm.append(["***", "***", "***", "***", "***"])
+    chaprsm2.append(["***", "***", "***", "***", "***"])
+
+    # 添加列名
+    column_names = ["Matched Peaks", "Matched Fragments", "Normalized Matched Fragments", "FDR Value", "PRSM ID"]
     workbook = openpyxl.Workbook()
     sheet = workbook.active
+    sheet.append(column_names)  # 添加列名
     for row_idx, row_data in enumerate(chaprsm, start=1):
         for col_idx, cell_value in enumerate(row_data, start=1):
-            sheet.cell(row=row_idx, column=col_idx, value=cell_value)
+            sheet.cell(row=row_idx + 1, column=col_idx, value=cell_value)  # 从第二行开始写入数据
     output_filename = "PRSMREscore独有的.xlsx"
     workbook.save(output_filename)
 
     workbook2 = openpyxl.Workbook()
     sheet2 = workbook2.active
+    sheet2.append(column_names)  # 添加列名
     for row_idx, row_data in enumerate(chaprsm2, start=1):
         for col_idx, cell_value in enumerate(row_data, start=1):
-            sheet2.cell(row=row_idx, column=col_idx, value=cell_value)
+            sheet2.cell(row=row_idx + 1, column=col_idx, value=cell_value)  # 从第二行开始写入数据
     output_filename = "toppic独有的.xlsx"
     workbook2.save(output_filename)
+
     f.write('共同有:')
     f.write(str(C))
     f.write('\n')
