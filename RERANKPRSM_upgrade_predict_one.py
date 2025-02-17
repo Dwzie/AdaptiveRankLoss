@@ -10,6 +10,7 @@ import RERANKPRSM_upgrade_train
 from RERANKPRSM_upgrade_train import hidden_size
 from RERANKPRSM_upgrade_train import ResNeXt,ResNeXtBlock
 from RERANKPRSM_upgrade_train import input_size,num_blocks,cardinality,num_classes
+from sklearn.metrics import precision_recall_curve, auc
 np.set_printoptions(threshold=np.inf)
 gl=0
 
@@ -29,20 +30,38 @@ def input1(name):
     return torch.tensor(X),Y,Z
 
 def predict(filename):
-    model = ResNeXt(input_size=input_size, hidden_size=hidden_size, num_classes=num_classes, num_blocks=num_blocks, cardinality=cardinality)
+    model = ResNeXt(input_size=input_size, hidden_size=hidden_size, num_classes=num_classes, num_blocks=num_blocks,
+                    cardinality=cardinality)
     x, y, z = input1(filename)
     model = joblib.load(filename="saved_model5/DP.pkl")
     x = x.to(torch.float32)
     score = model(x)
-    score = score.detach().numpy()
-    score = score.reshape(-1, 1)
+
+    # 转换为 numpy 数组
+    score = score.detach().numpy().reshape(-1, 1)
     y = y.reshape(-1, 1)
     z = z.reshape(-1, 1)
 
-    score_label = np.concatenate((score, y, z), axis=1)
+    # 计算 Precision-Recall AUC
+    y_true = y.flatten()
+    y_scores = score.flatten()
+    precision, recall, _ = precision_recall_curve(y_true, y_scores)
+    pr_auc = auc(recall, precision)
 
+    # 计算 FDR‐AUC
+    sorted_indices = np.argsort(-y_scores)
+    sorted_y = y_true[sorted_indices]
+    cum_decoy = np.cumsum(sorted_y == 0)
+    cum_target = np.cumsum(sorted_y == 1) + 1  # 避免除 0
+    fdr_curve = cum_decoy / cum_target
+    x_axis = np.linspace(0, 1, len(fdr_curve))
+    fdr_auc = auc(x_axis, fdr_curve)
+
+
+    score_label = np.concatenate((score, y, z), axis=1)
     toprank = sorted(score_label, key=lambda x: x[0], reverse=True)
     ppp = np.array(toprank)
+
     fdr = 0
     target = 1
     decoy = 0
@@ -64,14 +83,12 @@ def predict(filename):
         if i <= 0.01:
             top = size - 1 - nixu.index(i)
             break
-    f.write(filename)
-    f.write('\n')
+
+    f.write(filename + '\n')
+    f.write('重打分后有: ' + str(top) + '\n')
+
     A = list()
     B = list()
-    f.write('重打分后有: ')
-    f.write(str(top))
-    f.write('\n')
-
     for i in range(top):
         A.append(str(ppp[i][2]))
 
@@ -92,9 +109,8 @@ def predict(filename):
     for i in range(top):
         B.append(str(nixu[i][2]).strip("]").strip("["))
 
-    f.write('之前有:')
-    f.write(str(top))
-    f.write('\n')
+    f.write('之前有: ' + str(top) + '\n')
+
     C = 0
     C2 = 0
     cha = list()
@@ -154,9 +170,9 @@ def predict(filename):
     output_filename = "toppic独有的.xlsx"
     workbook2.save(output_filename)
 
-    f.write('共同有:')
-    f.write(str(C))
-    f.write('\n')
+    f.write('共同有: ' + str(C) + '\n')
+    f.write('Precision-Recall AUC: ' + str(pr_auc) + '\n')
+    f.write('FDR AUC: ' + str(fdr_auc) + '\n')
     f.write('\n')
     f.close()
 
