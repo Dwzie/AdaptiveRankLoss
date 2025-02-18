@@ -15,16 +15,57 @@ from sklearn.svm import SVC
 from sklearn.linear_model import LinearRegression
 import math
 
+
+# 新增FDR损失函数类
+class FDRLoss(nn.Module):
+    def __init__(self, alpha=0.2, margin=0.1, lambda_fdr=0.8):
+        super().__init__()
+        self.alpha = alpha  # 平滑系数
+        self.margin = margin  # 排序间隔
+        self.lambda_fdr = lambda_fdr  # FDR项权重
+        self.bce_loss = nn.BCELoss()
+
+    def forward(self, outputs, labels):
+        # 基本BCE损失
+        loss_bce = self.bce_loss(outputs, labels.float())
+
+        # 分离目标和诱饵样本
+        target_mask = (labels == 1)
+        decoy_mask = (labels == 0)
+
+        target_scores = outputs[target_mask]
+        decoy_scores = outputs[decoy_mask]
+
+        # 处理空张量情况
+        if target_scores.shape[0] == 0 or decoy_scores.shape[0] == 0:
+            return loss_bce
+
+        # 动态阈值计算
+        tau = torch.median(target_scores) - self.margin
+
+        # 计算代理指标
+        proxy_tp = torch.sigmoid((target_scores - tau) / self.alpha).mean()
+        proxy_fp = torch.sigmoid((decoy_scores - tau) / self.alpha).mean()
+
+        # 计算FDR项
+        fdr_term = proxy_fp / (proxy_tp + proxy_fp + 1e-6)
+
+        # 组合损失
+        total_loss = loss_bce + self.lambda_fdr * fdr_term
+
+        return total_loss
+
+# 设置随机种子
 seed = 8256
-# seed=random.randint(1, 10000)
 torch.manual_seed(seed)
 torch.cuda.manual_seed(seed)
 np.random.seed(seed)
-
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
+# 设置NumPy打印选项，避免输出被截断。
 np.set_printoptions(threshold=np.inf)
+
 # 超参数设置
 input_size = 8 # 输入特征大小：11
 hidden_size = 64  # 隐藏层大小
@@ -34,6 +75,8 @@ num_epochs = 50 # 训练轮数
 batch_size = 100  # 批大小
 num_blocks = 9
 cardinality = 8
+
+
 trainfile="input1.6.2/train/FB_CB_1_ms2_toppic_prsm.xml"
 flag=5
 # trainfile2="input1.6.2/train/20150927_BM_sort_2E6_CD19_highCD10_techrep01_ms2_toppic_prsm.xml"
@@ -406,12 +449,18 @@ def train_model(sfilename):
 
     model = ResNeXt(input_size, hidden_size, num_classes, num_blocks, cardinality)
     # 定义损失函数和优化器
-    criterion = nn.BCELoss()  # Binary Cross-Entropy Loss for binary classification
-    #criterion =nn.HingeEmbeddingLoss()
+    # criterion = nn.BCELoss()  # Binary Cross-Entropy Loss for binary classification
+    # #criterion =nn.HingeEmbeddingLoss()
+    # optimizer = optim.Adam(model.parameters(), lr=0.001)
 
-    optimizer = optim.Adam(model.parameters(), lr=0.001)
+    # 使用新的FDR损失函数
+    criterion = FDRLoss(alpha=0.2, margin=0.05, lambda_fdr=0.8)
+    # 优化器设置添加梯度裁剪
+    optimizer = torch.optim.AdamW(model.parameters(),
+                                  lr=1e-3,
+                                  weight_decay=1e-4)
+
     # 训练模型
-
     for epoch in range(num_epochs):
         model.train()  # Set the model to training mode
         running_loss = 0.0
@@ -431,6 +480,7 @@ def train_model(sfilename):
             loss = criterion(outputs, labels)  # Compute loss
 
             loss.backward()  # Backpropagation
+            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()  # Update weights
 
             running_loss += loss.item()
