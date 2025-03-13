@@ -1,0 +1,84 @@
+input1.6.2/test/F1_1_ms2_toppic_prsm.xml
+重打分后有: 4
+之前有: 9
+共同有: 4
+Precision-Recall AUC: 0.35982225539979484
+FDR AUC: 2.1556672679922304
+
+input1.6.2/test/F2_1_ms2_toppic_prsm.xml
+重打分后有: 244
+之前有: 283
+共同有: 236
+Precision-Recall AUC: 0.7819366310570138
+FDR AUC: 0.6346281677586328
+
+input1.6.2/test/F1_2_ms2_toppic_prsm.xml
+重打分后有: 47
+之前有: 81
+共同有: 46
+Precision-Recall AUC: 0.5353123152367671
+FDR AUC: 1.3272634927249711
+
+input1.6.2/test/F2_2_ms2_toppic_prsm.xml
+重打分后有: 302
+之前有: 400
+共同有: 296
+Precision-Recall AUC: 0.8213470497973876
+FDR AUC: 0.48022523639737646
+
+input1.6.2/test/F3_1_ms2_toppic_prsm.xml
+重打分后有: 577
+之前有: 655
+共同有: 567
+Precision-Recall AUC: 0.9623728459862886
+FDR AUC: 0.11990563864333291
+
+input1.6.2/test/F4_1_ms2_toppic_prsm.xml
+重打分后有: 157
+之前有: 231
+共同有: 154
+Precision-Recall AUC: 0.9480546226944202
+FDR AUC: 0.14618143446387746
+
+input1.6.2/test/Yeast_3_ms2_toppic_prsm.xml
+重打分后有: 1476
+之前有: 1681
+共同有: 1434
+Precision-Recall AUC: 0.9747996547260737
+FDR AUC: 0.05419862146277983
+
+input1.6.2/test/Yeast_5_ms2_toppic_prsm.xml
+重打分后有: 1317
+之前有: 1718
+共同有: 1302
+Precision-Recall AUC: 0.9762576249132935
+FDR AUC: 0.047859293510756414
+
+input1.6.2/test/Yeast_6_ms2_toppic_prsm.xml
+重打分后有: 1562
+之前有: 1690
+共同有: 1502
+Precision-Recall AUC: 0.9762695409722314
+FDR AUC: 0.04459769547114271
+
+input1.6.2/test/Yeast_7_ms2_toppic_prsm.xml
+重打分后有: 1561
+之前有: 1694
+共同有: 1519
+Precision-Recall AUC: 0.9787182476199621
+FDR AUC: 0.044849753500850846
+
+input1.6.2/test/Yeast_8_ms2_toppic_prsm.xml
+重打分后有: 1444
+之前有: 1639
+共同有: 1394
+Precision-Recall AUC: 0.9750747134277851
+FDR AUC: 0.04535432282036702
+
+input1.6.2/test/Yeast_9_ms2_toppic_prsm.xml
+重打分后有: 1528
+之前有: 1676
+共同有: 1471
+Precision-Recall AUC: 0.9787069979606594
+FDR AUC: 0.04169919285863081
+

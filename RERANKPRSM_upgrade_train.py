@@ -293,27 +293,27 @@ def roc_star_loss(_y_true, y_pred, model, _epoch_true, epoch_pred):
     return torch.where(torch.isnan(res2), torch.zeros_like(res2), res2)
 
 
-def epoch_update_gamma(y_true, y_pred, epoch=-1, delta=1):
-    SUB_SAMPLE_SIZE = 2000.0
-    pos = y_pred[y_true == 1]
-    neg = y_pred[y_true == 0]
-
-    cap_pos = max(1, pos.shape[0])
-    cap_neg = max(1, neg.shape[0])
-    pos = pos[torch.rand_like(pos) < SUB_SAMPLE_SIZE / cap_pos]
-    neg = neg[torch.rand_like(neg) < SUB_SAMPLE_SIZE / cap_neg]
-
-    ln_pos, ln_neg = pos.shape[0], neg.shape[0]
-    pos_expand = pos.view(-1, 1).expand(-1, ln_neg).reshape(-1)
-    neg_expand = neg.repeat(ln_pos)
-    diff = neg_expand - pos_expand
-
-    Lp = diff[diff > 0]
-    diff_neg = -diff[diff < 0].sort()[0]
-    left_wing = int(len(Lp) * delta)
-    gamma = diff_neg[left_wing] if diff_neg.shape[0] > 0 else torch.tensor(0.2).cpu()
-
-    return gamma.item() if epoch >= 0 else 0.2
+# def epoch_update_gamma(y_true, y_pred, epoch=-1, delta=1):
+#     SUB_SAMPLE_SIZE = 2000.0
+#     pos = y_pred[y_true == 1]
+#     neg = y_pred[y_true == 0]
+#
+#     cap_pos = max(1, pos.shape[0])
+#     cap_neg = max(1, neg.shape[0])
+#     pos = pos[torch.rand_like(pos) < SUB_SAMPLE_SIZE / cap_pos]
+#     neg = neg[torch.rand_like(neg) < SUB_SAMPLE_SIZE / cap_neg]
+#
+#     ln_pos, ln_neg = pos.shape[0], neg.shape[0]
+#     pos_expand = pos.view(-1, 1).expand(-1, ln_neg).reshape(-1)
+#     neg_expand = neg.repeat(ln_pos)
+#     diff = neg_expand - pos_expand
+#
+#     Lp = diff[diff > 0]
+#     diff_neg = -diff[diff < 0].sort()[0]
+#     left_wing = int(len(Lp) * delta)
+#     gamma = diff_neg[left_wing] if diff_neg.shape[0] > 0 else torch.tensor(0.2).cpu()
+#
+#     return gamma.item() if epoch >= 0 else 0.2
 
 # 定义神经网络模型
 class ResidualBlock(nn.Module):
@@ -473,9 +473,8 @@ def train_model(sfilename):
     all_y = []
     for _, y in train_loader:
         all_y.extend(y.numpy())
-    last_epoch_y_pred = torch.rand(len(all_y)).float().cpu() * 0.5
-    last_epoch_y_t = torch.tensor(all_y).float().cpu()
-    epoch_gamma = 0.2
+    torch.rand(len(all_y)).float().cpu()
+    # last_epoch_y_t = torch.tensor(all_y).float().cpu()
 
     # 初始化模型
     # 初始化模型和优化器时，为gamma设置独立的学习率
@@ -490,15 +489,10 @@ def train_model(sfilename):
         {'params': main_params, 'lr': 0.001},  # 主参数组
         {'params': [model.gamma], 'lr': 1e-5}  # gamma参数组
     ])
-    #  训练循环
-    best_fdr = float('inf')
+
     last_epoch_y_pred = torch.rand(len(all_y)).float().cpu() * 0.5  # 初始伪预测
     last_epoch_y_t = torch.tensor(all_y).float().cpu()
     # 训练模型
-
-    # 在训练循环前定义动态δ的超参数
-    alpha = 0.5  # 控制AUC对δ的影响强度
-    beta = 0.5  # δ的基线值
 
     # 训练循环
     for epoch in range(num_epochs):
@@ -536,16 +530,12 @@ def train_model(sfilename):
         all_labels = torch.tensor(epoch_y_t).cpu()
         current_auc = roc_auc_score(all_labels.numpy(), all_preds.numpy())
 
-        # 动态计算delta
-        delta = alpha * (1 - current_auc) + beta
-
         # 更新gamma（通过epoch_update_gamma，传入动态delta）
         last_epoch_y_pred = torch.tensor(epoch_y_pred).float().cpu()
         last_epoch_y_t = torch.tensor(epoch_y_t).float().cpu()
-        epoch_gamma = epoch_update_gamma(last_epoch_y_t, last_epoch_y_pred, epoch, delta=delta)
 
         print(
-            f"Epoch [{epoch + 1}/{num_epochs}] AUC: {current_auc:.4f}, Delta: {delta:.4f}, Gamma: {model.gamma.item():.4f}, Loss: {loss.item():.4f}")
+            f"Epoch [{epoch + 1}/{num_epochs}] AUC: {current_auc:.4f}, Gamma: {model.gamma.item():.4f}, Loss: {loss.item():.4f}")
 
     joblib.dump(model, "saved_model5/" + "DP.pkl")
     print("保存DP模型")
