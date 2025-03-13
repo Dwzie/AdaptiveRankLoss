@@ -1,71 +1,29 @@
 import subprocess
 import xml.dom.minidom
 import random
-
-from torch import optim
-from torch.utils.data import Dataset
-import joblib
 import numpy as np
 import torch
 import torch.nn as nn
 import xgboost as xgb
+from sklearn.metrics import roc_auc_score
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import LinearRegression
 import math
+from torch import optim
+from torch.utils.data import Dataset
+import joblib
 
-
-# 新增FDR损失函数类
-class FDRLoss(nn.Module):
-    def __init__(self, alpha=0.2, margin=0.1, lambda_fdr=0.8):
-        super().__init__()
-        self.alpha = alpha  # 平滑系数
-        self.margin = margin  # 排序间隔
-        self.lambda_fdr = lambda_fdr  # FDR项权重
-        self.bce_loss = nn.BCELoss()
-
-    def forward(self, outputs, labels):
-        # 基本BCE损失
-        loss_bce = self.bce_loss(outputs, labels.float())
-
-        # 分离目标和诱饵样本
-        target_mask = (labels == 1)
-        decoy_mask = (labels == 0)
-
-        target_scores = outputs[target_mask]
-        decoy_scores = outputs[decoy_mask]
-
-        # 处理空张量情况
-        if target_scores.shape[0] == 0 or decoy_scores.shape[0] == 0:
-            return loss_bce
-
-        # 动态阈值计算
-        tau = torch.median(target_scores) - self.margin
-
-        # 计算代理指标
-        proxy_tp = torch.sigmoid((target_scores - tau) / self.alpha).mean()
-        proxy_fp = torch.sigmoid((decoy_scores - tau) / self.alpha).mean()
-
-        # 计算FDR项
-        fdr_term = proxy_fp / (proxy_tp + proxy_fp + 1e-6)
-
-        # 组合损失
-        total_loss = loss_bce + self.lambda_fdr * fdr_term
-
-        return total_loss
-
-# 设置随机种子
 seed = 8256
+# seed=random.randint(1, 10000)
 torch.manual_seed(seed)
-torch.cuda.manual_seed(seed)
 np.random.seed(seed)
+
 torch.backends.cudnn.deterministic = True
 torch.backends.cudnn.benchmark = False
 
-# 设置NumPy打印选项，避免输出被截断。
 np.set_printoptions(threshold=np.inf)
-
 # 超参数设置
 input_size = 8 # 输入特征大小：11
 hidden_size = 64  # 隐藏层大小
@@ -75,8 +33,6 @@ num_epochs = 50 # 训练轮数
 batch_size = 100  # 批大小
 num_blocks = 9
 cardinality = 8
-
-
 trainfile="input1.6.2/train/FB_CB_1_ms2_toppic_prsm.xml"
 flag=5
 # trainfile2="input1.6.2/train/20150927_BM_sort_2E6_CD19_highCD10_techrep01_ms2_toppic_prsm.xml"
@@ -285,8 +241,81 @@ class myDataset(Dataset):
     # 获取数据集的大小
     def __len__(self):
         return len(self.data)
-# 定义神经网络模型
 
+
+def roc_star_loss(_y_true, y_pred, model, _epoch_true, epoch_pred):
+    y_true = (_y_true >= 0.5)
+    epoch_true = (_epoch_true >= 0.5)
+
+    if torch.sum(y_true) == 0 or torch.sum(y_true) == y_true.shape[0]:
+        return torch.sum(y_pred) * 1e-8
+
+    pos = y_pred[y_true]
+    neg = y_pred[~y_true]
+    epoch_pos = epoch_pred[epoch_true]
+    epoch_neg = epoch_pred[~epoch_true]
+
+    # 子采样
+    max_pos, max_neg = 1000, 1000
+    cap_pos = max(1, epoch_pos.shape[0])
+    cap_neg = max(1, epoch_neg.shape[0])
+
+    epoch_pos = epoch_pos[torch.rand_like(epoch_pos) < max_pos / cap_pos]
+    epoch_neg = epoch_neg[torch.rand_like(epoch_neg) < max_neg / cap_neg]
+
+    ln_pos, ln_neg = pos.shape[0], neg.shape[0]
+
+    # 正样本计算（使用model.gamma）
+    if ln_pos > 0:
+        pos_expand = pos.view(-1, 1).expand(-1, epoch_neg.shape[0]).reshape(-1)
+        neg_expand = epoch_neg.repeat(ln_pos)
+        diff2 = neg_expand - pos_expand + model.gamma  # 使用模型中的gamma
+        l2 = diff2[diff2 > 0]
+        m2 = l2 * l2
+        len2 = l2.shape[0]
+    else:
+        m2 = torch.tensor([0], dtype=torch.float).cpu()
+        len2 = 0
+
+    # 负样本计算（使用model.gamma）
+    if ln_neg > 0:
+        pos_expand = epoch_pos.view(-1, 1).expand(-1, ln_neg).reshape(-1)
+        neg_expand = neg.repeat(epoch_pos.shape[0])
+        diff3 = neg_expand - pos_expand + model.gamma  # 使用模型中的gamma
+        l3 = diff3[diff3 > 0]
+        m3 = l3 * l3
+        len3 = l3.shape[0]
+    else:
+        m3 = torch.tensor([0], dtype=torch.float).cpu()
+        len3 = 0
+
+    res2 = (torch.sum(m2) / max_pos + torch.sum(m3) / max_neg) if (len2 + len3) > 0 else 0
+    return torch.where(torch.isnan(res2), torch.zeros_like(res2), res2)
+
+
+def epoch_update_gamma(y_true, y_pred, epoch=-1, delta=1):
+    SUB_SAMPLE_SIZE = 2000.0
+    pos = y_pred[y_true == 1]
+    neg = y_pred[y_true == 0]
+
+    cap_pos = max(1, pos.shape[0])
+    cap_neg = max(1, neg.shape[0])
+    pos = pos[torch.rand_like(pos) < SUB_SAMPLE_SIZE / cap_pos]
+    neg = neg[torch.rand_like(neg) < SUB_SAMPLE_SIZE / cap_neg]
+
+    ln_pos, ln_neg = pos.shape[0], neg.shape[0]
+    pos_expand = pos.view(-1, 1).expand(-1, ln_neg).reshape(-1)
+    neg_expand = neg.repeat(ln_pos)
+    diff = neg_expand - pos_expand
+
+    Lp = diff[diff > 0]
+    diff_neg = -diff[diff < 0].sort()[0]
+    left_wing = int(len(Lp) * delta)
+    gamma = diff_neg[left_wing] if diff_neg.shape[0] > 0 else torch.tensor(0.2).cpu()
+
+    return gamma.item() if epoch >= 0 else 0.2
+
+# 定义神经网络模型
 class ResidualBlock(nn.Module):
     def __init__(self, input_size, output_size):
         super(ResidualBlock, self).__init__()
@@ -342,23 +371,20 @@ class ResNeXt(nn.Module):
         super(ResNeXt, self).__init__()
         self.fc_input = nn.Linear(input_size, hidden_size)
         self.relu = nn.ReLU()
-
         self.residual_blocks = nn.ModuleList([
             ResNeXtBlock(hidden_size, hidden_size, cardinality) for _ in range(num_blocks)
         ])
-
-        self.fc_output = nn.Linear(hidden_size, num_classes)
+        self.fc_output = nn.Linear(hidden_size, 1)
+        # 添加可学习的gamma参数，初始值为0.2，并约束非负
+        self.gamma = nn.Parameter(torch.tensor(0.2), requires_grad=True)
 
     def forward(self, x):
         x = x.to(torch.float32)
         x = self.fc_input(x)
         x = self.relu(x)
-
         for block in self.residual_blocks:
             x = block(x)
-
-        x = self.fc_output(x)
-        return torch.sigmoid(x)
+        return torch.sigmoid(self.fc_output(x)).squeeze(-1)
 
 # Create an instance of the ResNeXt model
 
@@ -438,63 +464,98 @@ def train_model(sfilename):
     linreg.fit(X_train, y_train)
     joblib.dump(linreg, "saved_model5/"+"LR.pkl")
     print("保存线性回归")
+
+    # 初始化训练数据
     data = myDataset()
     train_loader = torch.utils.data.DataLoader(data, batch_size=batch_size, shuffle=True, drop_last=True)
-    # 创建模型实例
 
-    # model =TenLayerNet(input_size, hidden_size, num_classes)
-    # model = ResidualNetwork(input_size, hidden_size, num_classes, num_blocks)
+    # 初始化last epoch数据
+    all_y = []
+    for _, y in train_loader:
+        all_y.extend(y.numpy())
+    last_epoch_y_pred = torch.rand(len(all_y)).float().cpu() * 0.5
+    last_epoch_y_t = torch.tensor(all_y).float().cpu()
+    epoch_gamma = 0.2
 
+    # 初始化模型
+    # 初始化模型和优化器时，为gamma设置独立的学习率
+    # 初始化模型
+    model = ResNeXt(input_size, hidden_size, num_classes, num_blocks, cardinality).cpu()
 
+    # 分离主参数和gamma参数
+    main_params = [p for p in model.parameters() if p is not model.gamma]  # 关键修改点
 
-    model = ResNeXt(input_size, hidden_size, num_classes, num_blocks, cardinality)
-    # 定义损失函数和优化器
-    # criterion = nn.BCELoss()  # Binary Cross-Entropy Loss for binary classification
-    # #criterion =nn.HingeEmbeddingLoss()
-    # optimizer = optim.Adam(model.parameters(), lr=0.001)
-
-    # 使用新的FDR损失函数
-    criterion = FDRLoss(alpha=0.2, margin=0.05, lambda_fdr=0.8)
-    # 优化器设置添加梯度裁剪
-    optimizer = torch.optim.AdamW(model.parameters(),
-                                  lr=1e-3,
-                                  weight_decay=1e-4)
-
+    # 配置优化器（gamma独立组）
+    optimizer = optim.Adam([
+        {'params': main_params, 'lr': 0.001},  # 主参数组
+        {'params': [model.gamma], 'lr': 1e-5}  # gamma参数组
+    ])
+    #  训练循环
+    best_fdr = float('inf')
+    last_epoch_y_pred = torch.rand(len(all_y)).float().cpu() * 0.5  # 初始伪预测
+    last_epoch_y_t = torch.tensor(all_y).float().cpu()
     # 训练模型
+
+    # 在训练循环前定义动态δ的超参数
+    alpha = 0.5  # 控制AUC对δ的影响强度
+    beta = 0.5  # δ的基线值
+
+    # 训练循环
     for epoch in range(num_epochs):
-        model.train()  # Set the model to training mode
-        running_loss = 0.0
+        model.train()
+        epoch_y_pred = []
+        epoch_y_t = []
 
-        for inputs, labels in train_loader:  # Iterate over your dataloader
-            optimizer.zero_grad()  # Zero the gradients
-            labels = labels.reshape(-1, 1)
+        for inputs, labels in train_loader:
+            inputs = inputs.float().cpu()
+            labels = labels.float().cpu()
 
-            outputs = model(inputs)  # Forward pass
+            optimizer.zero_grad()
+            outputs = model(inputs)
 
-            outputs = outputs.to(torch.float32)
-            labels = labels.to(torch.float32)
-            # print(outputs)
-            # print(outputs.shape)
-            # print(labels.shape)
+            # 使用修改后的损失函数（传入model）
+            loss = roc_star_loss(
+                labels, outputs,
+                model,  # 传入模型以访问gamma
+                last_epoch_y_t,
+                last_epoch_y_pred
+            )
 
-            loss = criterion(outputs, labels)  # Compute loss
+            loss.backward()
+            optimizer.step()
 
-            loss.backward()  # Backpropagation
-            torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-            optimizer.step()  # Update weights
+            # 约束gamma非负
+            model.gamma.data = torch.clamp(model.gamma.data, min=0.0)
 
-            running_loss += loss.item()
+            # 收集数据
+            epoch_y_pred.extend(outputs.detach().cpu().numpy())
+            epoch_y_t.extend(labels.detach().cpu().numpy())
 
-        epoch_loss = running_loss / len(train_loader)
-        print(f"Epoch [{epoch + 1}/{num_epochs}] - Loss: {epoch_loss:.4f}")
-    joblib.dump(model, "saved_model5/"+"DP.pkl")
+        # 计算当前AUC（使用验证集或训练集）
+        all_preds = torch.tensor(epoch_y_pred).cpu()
+        all_labels = torch.tensor(epoch_y_t).cpu()
+        current_auc = roc_auc_score(all_labels.numpy(), all_preds.numpy())
+
+        # 动态计算delta
+        delta = alpha * (1 - current_auc) + beta
+
+        # 更新gamma（通过epoch_update_gamma，传入动态delta）
+        last_epoch_y_pred = torch.tensor(epoch_y_pred).float().cpu()
+        last_epoch_y_t = torch.tensor(epoch_y_t).float().cpu()
+        epoch_gamma = epoch_update_gamma(last_epoch_y_t, last_epoch_y_pred, epoch, delta=delta)
+
+        print(
+            f"Epoch [{epoch + 1}/{num_epochs}] AUC: {current_auc:.4f}, Delta: {delta:.4f}, Gamma: {model.gamma.item():.4f}, Loss: {loss.item():.4f}")
+
+    joblib.dump(model, "saved_model5/" + "DP.pkl")
     print("保存DP模型")
     f = open('result.txt', 'a')
     f.write('\n')
-    f.write("随机数"+str(seed))
+    f.write("随机数" + str(seed))
     f.close()
     # args = ['python', 'RERANKPRSM_upgrade_Predict.py', '--arg1', str(i)]
     # subprocess.run(args)
+
 if __name__ == '__main__':
     # for i in range(2):
     print( "随机数"+str(seed))
