@@ -220,46 +220,46 @@ if __name__ == '__main__':
     predict("input1.6.2/test/Yeast_8_ms2_toppic_prsm.xml")
     predict("input1.6.2/test/Yeast_9_ms2_toppic_prsm.xml")
     #
-    # predict("input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-10_018_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-20_005_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-30_020_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/081018_RVG262_PGAFF_RP4H_Neutros_GelFREE_8pF1_FAIMS_CV_-50_019_ms2_toppic_prsm.xml")
+
+    predict("input1.6.2/test/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml")
+    # 
     #
-    # predict("input1.6.2/test/LCA_RM_20191005_Platelets_F1AB_01_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml")
-    # #
-    # #
-    # predict("input1.6.2/test/ESVO_NSI_5939_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/ESVO_NSI_5942_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/ESVO_NSI_5951_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/ESVO_NSI_5954_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/ESVO_NSI_5957_ms2_toppic_prsm.xml")
-    #
-    #
-    # predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_22_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_23_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_24_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_25_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_26_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_27_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_28_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/ESVO_NSI_5939_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/ESVO_NSI_5942_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/ESVO_NSI_5951_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/ESVO_NSI_5954_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/ESVO_NSI_5957_ms2_toppic_prsm.xml")
     #
     #
+    predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_22_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_23_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_24_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_25_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_26_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_27_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_28_ms2_toppic_prsm.xml")
+
+
     # predict("input1.6.2/test/C6_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/F4_1_ms2_toppic_prsm_AT.xml")
-    # predict("input1.6.2/test/F4_2_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/F5_1_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/F6_1_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/F6_2_ms2_toppic_prsm.xml")
-    #
-    # predict("input1.6.2/test/Experiment_4_620_F1_01_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/Experiment_4_620_F1_02_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/Experiment_4_620_F1_03_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/Experiment_4_620_F2_01_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/Experiment_4_620_F2_02_ms2_toppic_prsm.xml")
-    # predict("input1.6.2/test/Experiment_4_620_F2_03_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/F4_1_ms2_toppic_prsm_AT.xml")
+    predict("input1.6.2/test/F4_2_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/F5_1_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/F6_1_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/F6_2_ms2_toppic_prsm.xml")
+
+    predict("input1.6.2/test/Experiment_4_620_F1_01_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/Experiment_4_620_F1_02_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/Experiment_4_620_F1_03_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/Experiment_4_620_F2_01_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/Experiment_4_620_F2_02_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/Experiment_4_620_F2_03_ms2_toppic_prsm.xml")
     #
 
 
