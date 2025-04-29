@@ -15,6 +15,8 @@ from torch import optim
 from torch.utils.data import Dataset
 import joblib
 
+from AdaptiveRankLoss import AdaptiveRankLoss
+
 seed = 8256
 # seed=random.randint(1, 10000)
 torch.manual_seed(seed)
@@ -243,78 +245,6 @@ class myDataset(Dataset):
         return len(self.data)
 
 
-def roc_star_loss(_y_true, y_pred, model, _epoch_true, epoch_pred):
-    y_true = (_y_true >= 0.5)
-    epoch_true = (_epoch_true >= 0.5)
-
-    if torch.sum(y_true) == 0 or torch.sum(y_true) == y_true.shape[0]:
-        return torch.sum(y_pred) * 1e-8
-
-    pos = y_pred[y_true]
-    neg = y_pred[~y_true]
-    epoch_pos = epoch_pred[epoch_true]
-    epoch_neg = epoch_pred[~epoch_true]
-
-    # 子采样
-    max_pos, max_neg = 1000, 1000
-    cap_pos = max(1, epoch_pos.shape[0])
-    cap_neg = max(1, epoch_neg.shape[0])
-
-    epoch_pos = epoch_pos[torch.rand_like(epoch_pos) < max_pos / cap_pos]
-    epoch_neg = epoch_neg[torch.rand_like(epoch_neg) < max_neg / cap_neg]
-
-    ln_pos, ln_neg = pos.shape[0], neg.shape[0]
-
-    # 正样本计算（使用model.gamma）
-    if ln_pos > 0:
-        pos_expand = pos.view(-1, 1).expand(-1, epoch_neg.shape[0]).reshape(-1)
-        neg_expand = epoch_neg.repeat(ln_pos)
-        diff2 = neg_expand - pos_expand + model.gamma  # 使用模型中的gamma
-        l2 = diff2[diff2 > 0]
-        m2 = l2 * l2
-        len2 = l2.shape[0]
-    else:
-        m2 = torch.tensor([0], dtype=torch.float).cpu()
-        len2 = 0
-
-    # 负样本计算（使用model.gamma）
-    if ln_neg > 0:
-        pos_expand = epoch_pos.view(-1, 1).expand(-1, ln_neg).reshape(-1)
-        neg_expand = neg.repeat(epoch_pos.shape[0])
-        diff3 = neg_expand - pos_expand + model.gamma  # 使用模型中的gamma
-        l3 = diff3[diff3 > 0]
-        m3 = l3 * l3
-        len3 = l3.shape[0]
-    else:
-        m3 = torch.tensor([0], dtype=torch.float).cpu()
-        len3 = 0
-
-    res2 = (torch.sum(m2) / max_pos + torch.sum(m3) / max_neg) if (len2 + len3) > 0 else 0
-    return torch.where(torch.isnan(res2), torch.zeros_like(res2), res2)
-
-
-# def epoch_update_gamma(y_true, y_pred, epoch=-1, delta=1):
-#     SUB_SAMPLE_SIZE = 2000.0
-#     pos = y_pred[y_true == 1]
-#     neg = y_pred[y_true == 0]
-#
-#     cap_pos = max(1, pos.shape[0])
-#     cap_neg = max(1, neg.shape[0])
-#     pos = pos[torch.rand_like(pos) < SUB_SAMPLE_SIZE / cap_pos]
-#     neg = neg[torch.rand_like(neg) < SUB_SAMPLE_SIZE / cap_neg]
-#
-#     ln_pos, ln_neg = pos.shape[0], neg.shape[0]
-#     pos_expand = pos.view(-1, 1).expand(-1, ln_neg).reshape(-1)
-#     neg_expand = neg.repeat(ln_pos)
-#     diff = neg_expand - pos_expand
-#
-#     Lp = diff[diff > 0]
-#     diff_neg = -diff[diff < 0].sort()[0]
-#     left_wing = int(len(Lp) * delta)
-#     gamma = diff_neg[left_wing] if diff_neg.shape[0] > 0 else torch.tensor(0.2).cpu()
-#
-#     return gamma.item() if epoch >= 0 else 0.2
-
 # 定义神经网络模型
 class ResidualBlock(nn.Module):
     def __init__(self, input_size, output_size):
@@ -477,24 +407,21 @@ def train_model(sfilename):
     # last_epoch_y_t = torch.tensor(all_y).float().cpu()
 
     # 初始化模型
-    # 初始化模型和优化器时，为gamma设置独立的学习率
-    # 初始化模型
     model = ResNeXt(input_size, hidden_size, num_classes, num_blocks, cardinality).cpu()
 
-    # 分离主参数和gamma参数
-    main_params = [p for p in model.parameters() if p is not model.gamma]  # 关键修改点
-
-    # 配置优化器（gamma独立组）
+    # 配置优化器
     optimizer = optim.Adam([
-        {'params': main_params, 'lr': 0.001},  # 主参数组
-        {'params': [model.gamma], 'lr': 1e-5}  # gamma参数组
+        {'params': [p for p in model.parameters() if p is not model.gamma], 'lr': 0.001},
+        {'params': [model.gamma], 'lr': 1e-5}
     ])
 
-    last_epoch_y_pred = torch.rand(len(all_y)).float().cpu() * 0.5  # 初始伪预测
-    last_epoch_y_t = torch.tensor(all_y).float().cpu()
-    # 训练模型
+    # 实例化 AdaptiveRankLoss 类 (使用默认参数)
+    criterion = AdaptiveRankLoss()  # 你也可以在这里传入自定义参数，如 criterion = AdaptiveRankLoss(huber_delta=0.8)
 
-    # 训练循环
+    last_epoch_y_pred = torch.rand(len(all_y)).float().cpu() * 0.5
+    last_epoch_y_t = torch.tensor(all_y).float().cpu()
+
+    # 训练模型
     for epoch in range(num_epochs):
         model.train()
         epoch_y_pred = []
@@ -507,13 +434,16 @@ def train_model(sfilename):
             optimizer.zero_grad()
             outputs = model(inputs)
 
-            # 使用修改后的损失函数（传入model）
-            loss = roc_star_loss(
-                labels, outputs,
-                model,  # 传入模型以访问gamma
-                last_epoch_y_t,
-                last_epoch_y_pred
+            # --- 修改这里 ---
+            # 使用实例化的 criterion 对象计算损失
+            loss = criterion(
+                current_scores=outputs,
+                current_labels=labels,
+                model=model,  # 传入模型以访问 gamma
+                prev_scores=last_epoch_y_pred,
+                prev_labels=last_epoch_y_t
             )
+            # --- 修改结束 ---
 
             loss.backward()
             optimizer.step()
@@ -525,12 +455,11 @@ def train_model(sfilename):
             epoch_y_pred.extend(outputs.detach().cpu().numpy())
             epoch_y_t.extend(labels.detach().cpu().numpy())
 
-        # 计算当前AUC（使用验证集或训练集）
+        # ... 后续代码保持不变 ...
         all_preds = torch.tensor(epoch_y_pred).cpu()
         all_labels = torch.tensor(epoch_y_t).cpu()
         current_auc = roc_auc_score(all_labels.numpy(), all_preds.numpy())
 
-        # 更新gamma（通过epoch_update_gamma，传入动态delta）
         last_epoch_y_pred = torch.tensor(epoch_y_pred).float().cpu()
         last_epoch_y_t = torch.tensor(epoch_y_t).float().cpu()
 
