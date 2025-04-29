@@ -418,8 +418,8 @@ def train_model(sfilename):
     # 实例化 AdaptiveRankLoss 类 (使用默认参数)
     criterion = AdaptiveRankLoss()  # 你也可以在这里传入自定义参数，如 criterion = AdaptiveRankLoss(huber_delta=0.8)
 
-    last_epoch_y_pred = torch.rand(len(all_y)).float().cpu() * 0.5
-    last_epoch_y_t = torch.tensor(all_y).float().cpu()
+    # 使用所有初始标签初始化损失函数的历史状态
+    criterion.initialize_history(all_y)  # # 确保 all_initial_labels 是列表、Numpy数组或Tensor
 
     # 训练模型
     for epoch in range(num_epochs):
@@ -439,9 +439,7 @@ def train_model(sfilename):
             loss = criterion(
                 current_scores=outputs,
                 current_labels=labels,
-                model=model,  # 传入模型以访问 gamma
-                prev_scores=last_epoch_y_pred,
-                prev_labels=last_epoch_y_t
+                margin=model.gamma  # 直接传递 gamma 值
             )
             # --- 修改结束 ---
 
@@ -455,13 +453,13 @@ def train_model(sfilename):
             epoch_y_pred.extend(outputs.detach().cpu().numpy())
             epoch_y_t.extend(labels.detach().cpu().numpy())
 
-        # ... 后续代码保持不变 ...
-        all_preds = torch.tensor(epoch_y_pred).cpu()
-        all_labels = torch.tensor(epoch_y_t).cpu()
-        current_auc = roc_auc_score(all_labels.numpy(), all_preds.numpy())
+        # --- 在 epoch 循环的末尾 ---
+        all_preds_tensor = torch.tensor(epoch_y_pred).float().cpu()  # 确保是 Tensor
+        all_labels_tensor = torch.tensor(epoch_y_t).float().cpu()  # 确保是 Tensor
 
-        last_epoch_y_pred = torch.tensor(epoch_y_pred).float().cpu()
-        last_epoch_y_t = torch.tensor(epoch_y_t).float().cpu()
+        # 调用新方法更新损失函数的内部状态
+        criterion.update_history(all_preds_tensor, all_labels_tensor)
+        current_auc = roc_auc_score(all_labels_tensor.numpy(), all_preds_tensor.numpy())  # 计算 AUC
 
         print(
             f"Epoch [{epoch + 1}/{num_epochs}] AUC: {current_auc:.4f}, Gamma: {model.gamma.item():.4f}, Loss: {loss.item():.4f}")
