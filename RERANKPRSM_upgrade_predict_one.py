@@ -1,6 +1,4 @@
 import argparse
-
-
 import numpy as np
 import openpyxl
 import torch
@@ -10,7 +8,8 @@ import RERANKPRSM_upgrade_train
 from RERANKPRSM_upgrade_train import hidden_size
 from RERANKPRSM_upgrade_train import ResNeXt,ResNeXtBlock
 from RERANKPRSM_upgrade_train import input_size,num_blocks,cardinality,num_classes
-from sklearn.metrics import precision_recall_curve, auc
+# 导入 precision_recall_curve, auc, 以及 roc_auc_score
+from sklearn.metrics import precision_recall_curve, auc, roc_auc_score # <--- 添加 roc_auc_score
 np.set_printoptions(threshold=np.inf)
 gl=0
 
@@ -47,6 +46,10 @@ def predict(filename):
     y_scores = score.flatten()
     precision, recall, _ = precision_recall_curve(y_true, y_scores)
     pr_auc = auc(recall, precision)
+
+    # --- Start: 添加 ROC AUC 计算 --- # <--- 添加
+    roc_auc = roc_auc_score(y_true, y_scores)
+    # --- End: 添加 ROC AUC 计算 --- # <--- 结束
 
     # 计算 FDR‐AUC
     sorted_indices = np.argsort(-y_scores)
@@ -172,12 +175,14 @@ def predict(filename):
 
     f.write('共同有: ' + str(C) + '\n')
     f.write('Precision-Recall AUC: ' + str(pr_auc) + '\n')
+    f.write('ROC AUC: ' + str(roc_auc) + '\n') # <--- 添加 ROC AUC 到输出文件
     f.write('FDR AUC: ' + str(fdr_auc) + '\n')
     f.write('\n')
     f.close()
 
     return "over!"
 
+# NeuralNet 和 if __name__ == '__main__': 部分保持不变
 class NeuralNet(nn.Module):
     def __init__(self, input_size, hidden_size, num_classes):
         super(NeuralNet, self).__init__()
@@ -229,7 +234,7 @@ if __name__ == '__main__':
     predict("input1.6.2/test/LCA_RM_20191005_Platelets_F1AB_02_ms2_toppic_prsm.xml")
     predict("input1.6.2/test/LCA_RM_20191005_Platelets_F2AB_01_ms2_toppic_prsm.xml")
     predict("input1.6.2/test/LCA_RM_20191005_Platelets_F2AB_02_ms2_toppic_prsm.xml")
-    # 
+    #
     #
     predict("input1.6.2/test/ESVO_NSI_5939_ms2_toppic_prsm.xml")
     predict("input1.6.2/test/ESVO_NSI_5942_ms2_toppic_prsm.xml")
@@ -247,7 +252,7 @@ if __name__ == '__main__':
     predict("input1.6.2/test/20181010_F1_Ag5_alban001_SA_TCx3_28_ms2_toppic_prsm.xml")
 
 
-    # predict("input1.6.2/test/C6_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/C6_ms2_toppic_prsm.xml")
     predict("input1.6.2/test/F4_1_ms2_toppic_prsm_AT.xml")
     predict("input1.6.2/test/F4_2_ms2_toppic_prsm.xml")
     predict("input1.6.2/test/F5_1_ms2_toppic_prsm.xml")
@@ -261,8 +266,7 @@ if __name__ == '__main__':
     predict("input1.6.2/test/Experiment_4_620_F2_02_ms2_toppic_prsm.xml")
     predict("input1.6.2/test/Experiment_4_620_F2_03_ms2_toppic_prsm.xml")
     #
-
-
-
-
+    predict("input1.6.2/test/FB_TeO_4_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/FB_TeO_5_ms2_toppic_prsm.xml")
+    predict("input1.6.2/test/FB_TeO_6_ms2_toppic_prsm.xml")
 

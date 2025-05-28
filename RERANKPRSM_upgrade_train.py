@@ -305,8 +305,8 @@ class ResNeXt(nn.Module):
             ResNeXtBlock(hidden_size, hidden_size, cardinality) for _ in range(num_blocks)
         ])
         self.fc_output = nn.Linear(hidden_size, 1)
-        # 添加可学习的gamma参数，初始值为0.2，并约束非负
-        self.gamma = nn.Parameter(torch.tensor(0.2), requires_grad=True)
+        # 添加可学习的margin参数，初始值为0.2，并约束非负
+        self.margin = nn.Parameter(torch.tensor(0.2), requires_grad=True)
 
     def forward(self, x):
         x = x.to(torch.float32)
@@ -411,58 +411,55 @@ def train_model(sfilename):
 
     # 配置优化器
     optimizer = optim.Adam([
-        {'params': [p for p in model.parameters() if p is not model.gamma], 'lr': 0.001},
-        {'params': [model.gamma], 'lr': 1e-5}
+        {'params': [p for p in model.parameters() if p is not model.margin], 'lr': 0.001},
+        {'params': [model.margin], 'lr': 1e-5}
     ])
 
     # 实例化 AdaptiveRankLoss 类 (使用默认参数)
-    criterion = AdaptiveRankLoss()  # 你也可以在这里传入自定义参数，如 criterion = AdaptiveRankLoss(huber_delta=0.8)
+    criterion = AdaptiveRankLoss()
 
     # 使用所有初始标签初始化损失函数的历史状态
     criterion.initialize_history(all_y)  # # 确保 all_initial_labels 是列表、Numpy数组或Tensor
 
-    # 训练模型
+    # 训练循环
     for epoch in range(num_epochs):
         model.train()
-        epoch_y_pred = []
-        epoch_y_t = []
+        epoch_predictions = []
+        epoch_true_labels = []
 
-        for inputs, labels in train_loader:
-            inputs = inputs.float().cpu()
-            labels = labels.float().cpu()
+        for batch_inputs, batch_labels in train_loader:
+            batch_inputs = batch_inputs.float().cpu()
+            batch_labels = batch_labels.float().cpu()
 
             optimizer.zero_grad()
-            outputs = model(inputs)
+            predictions = model(batch_inputs)
 
-            # --- 修改这里 ---
-            # 使用实例化的 criterion 对象计算损失
+            # 使用优化后的损失函数
             loss = criterion(
-                current_scores=outputs,
-                current_labels=labels,
-                margin=model.gamma  # 直接传递 gamma 值
+                current_scores=predictions,
+                current_labels=batch_labels,
+                margin=model.margin
             )
-            # --- 修改结束 ---
 
             loss.backward()
             optimizer.step()
 
-            # 约束gamma非负
-            model.gamma.data = torch.clamp(model.gamma.data, min=0.0)
+            # 约束margin非负
+            model.margin.data = torch.clamp(model.margin.data, min=0.0)
 
-            # 收集数据
-            epoch_y_pred.extend(outputs.detach().cpu().numpy())
-            epoch_y_t.extend(labels.detach().cpu().numpy())
+            # 收集本轮数据
+            epoch_predictions.extend(predictions.detach().cpu().numpy())
+            epoch_true_labels.extend(batch_labels.detach().cpu().numpy())
 
-        # --- 在 epoch 循环的末尾 ---
-        all_preds_tensor = torch.tensor(epoch_y_pred).float().cpu()  # 确保是 Tensor
-        all_labels_tensor = torch.tensor(epoch_y_t).float().cpu()  # 确保是 Tensor
-
-        # 调用新方法更新损失函数的内部状态
+        # 更新损失函数的历史状态
+        all_preds_tensor = torch.tensor(epoch_predictions).float().cpu()
+        all_labels_tensor = torch.tensor(epoch_true_labels).float().cpu()
         criterion.update_history(all_preds_tensor, all_labels_tensor)
-        current_auc = roc_auc_score(all_labels_tensor.numpy(), all_preds_tensor.numpy())  # 计算 AUC
 
-        print(
-            f"Epoch [{epoch + 1}/{num_epochs}] AUC: {current_auc:.4f}, Gamma: {model.gamma.item():.4f}, Loss: {loss.item():.4f}")
+        # 计算并打印AUC
+        current_auc = roc_auc_score(all_labels_tensor.numpy(), all_preds_tensor.numpy())
+        print(f"Epoch [{epoch + 1}/{num_epochs}] AUC: {current_auc:.4f}, "
+              f"Margin: {model.margin.item():.4f}, Loss: {loss.item():.4f}")
 
     joblib.dump(model, "saved_model5/" + "DP.pkl")
     print("保存DP模型")
